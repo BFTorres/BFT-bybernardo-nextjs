@@ -3,6 +3,7 @@ import Layout from "../layout/Layout";
 import SliderPortfolio from "../components/slider-portfolio/SliderPortfolio";
 import HeroSection from "../components/hero-section/HeroSection";
 import HeroSection2 from "../components/hero-section/HeroSection2";
+import HeroSectionThree from "../components/hero-section/HeroSectionThree";
 import TitleSection from "../components/heading/TitleSection";
 import ServiceOne from "../components/services/grid/ServiceOne";
 import ParallaxImage from "../components/Image/ParallaxImage";
@@ -48,7 +49,7 @@ function Home() {
                 }}
                 metaData={{hasSeparator: true}}
             /> */}
-            <HeroSection2 className="container section-margin container fill-right-container"
+            <HeroSectionThree className="container section-margin container fill-right-container"
                          data-dsn-title="How We Are"/>
             {/*Start Portfolio*/}
             <div className="section-margin" data-dsn-title="Our Portfolio">

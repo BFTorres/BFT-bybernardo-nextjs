@@ -42,10 +42,10 @@ function ContactForm({className}) {
                 <TitleSection defaultSpace={false}>
                     LET&apos;S WORK TOGETHER
                 </TitleSection>
-                <p className="mb-30 mt-20">
+                {/* <p className="mb-30 mt-20">
                     It&apos;s all about the humans behind a brand and those experiencing it,
                     I&apos;m right there. In the middle.
-                </p>
+                </p> */}
 
                 <form  className="form"  ref={form} onSubmit={sendEmail} >
                     <div className="input__wrap controls">
