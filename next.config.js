@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-    output: 'export',
-    /* reactStrictMode: true,
+    /* output: 'export', */
+    reactStrictMode: true,
     swcMinify: true,
     images: {
         unoptimized: true,
@@ -10,7 +10,7 @@ const nextConfig = {
     },
     compiler: {
         styledComponents: true,
-    } */
+    }
 
 }
 

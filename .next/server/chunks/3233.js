@@ -41,7 +41,9 @@ function MetaPost({ date =false , className =null , category , separate =null  }
         ]
     });
 }
-const Meta = (styled_components__WEBPACK_IMPORTED_MODULE_1___default().span)`
+const Meta = styled_components__WEBPACK_IMPORTED_MODULE_1___default().span.withConfig({
+    componentId: "sc-2f071ab4-0"
+})`
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 1.2px;
