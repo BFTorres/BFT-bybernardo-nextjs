@@ -12,11 +12,15 @@ import Button from "../../components/button/Button";
 import ParallaxImage from "../../components/Image/ParallaxImage";
 import TitleCover from "../../components/heading/TitleCover";
 import TitleSection from "../../components/heading/TitleSection";
+import Head from "next/head";
 
 function Project2(params) {
     const heroData = getPortfolioItem('thyssenkrupp');
     return (
         <Layout>
+            <Head>
+                <title>Thyssenkrupp | Bernardo Fonseca Torres</title>
+            </Head>
             <HeaderFull className="dsn-container"
                         alignItems="end"
                         heroContent={heroData} overlay={heroData.overlay}/>

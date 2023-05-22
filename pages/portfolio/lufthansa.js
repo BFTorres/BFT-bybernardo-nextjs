@@ -11,11 +11,15 @@ import NextProject from "../../components/next/NextProject";
 import Button from "../../components/button/Button";
 import NextPage from "../../components/next/NextPage";
 import Footer from "../../components/footer/Footer";
+import Head from "next/head";
 
 function Project4() {
     const heroData = getPortfolioItem('lufthansa');
     return (
         <Layout>
+            <Head>
+                <title>Lufthansa | Bernardo Fonseca Torres</title>
+            </Head>
             <HeaderFull className="dsn-container"
                         alignItems="end"
                         heroContent={heroData} overlay={heroData.overlay}/>

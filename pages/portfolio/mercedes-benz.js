@@ -10,11 +10,15 @@ import {getPortfolioItem} from "../../data/portfolio";
 import HeaderFull from "../../components/header/HeaderFull";
 import Image from "next/image";
 import Button from "../../components/button/Button";
+import Head from "next/head";
 
 function Project3(params) {
   const heroData = getPortfolioItem('mercedes-benz');
   return (
       <Layout>
+        <Head>
+            <title>Mercedes Benz | Bernardo Fonseca Torres</title>
+        </Head>
         <HeaderFull className="dsn-container"
                     alignItems="end"
                     heroContent={heroData} overlay={heroData.overlay}/>

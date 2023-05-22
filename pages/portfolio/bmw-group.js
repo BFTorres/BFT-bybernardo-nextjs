@@ -11,6 +11,7 @@ import Layout from "../../layout/Layout";
 import HeaderFull from "../../components/header/HeaderFull";
 import {getPortfolioItem} from "../../data/portfolio";
 import NextProject from "../../components/next/NextProject";
+import Head from "next/head";
 
 
 function Project1() {
@@ -18,6 +19,9 @@ function Project1() {
     const heroData = getPortfolioItem('bmw-group');
     return (
         <Layout>
+            <Head>
+                <title>BMW Group | Bernardo Fonseca Torres</title>
+            </Head>
             <HeaderFull className="dsn-container"
                         alignItems="end"
                         heroContent={heroData} overlay={heroData.overlay}/>

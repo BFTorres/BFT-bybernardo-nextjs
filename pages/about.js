@@ -34,7 +34,7 @@ function About() {
     return (
         <Layout modelRight={{children: <ModalContact/>, propsModal: {textBtn: "Contact"}}}>
             <Head>
-                <title>About me | Bernardo Fonseca Torres</title>
+                <title>About | Bernardo Fonseca Torres</title>
             </Head>
             {/*========== Header Normal ========== */}
             <HeaderNormal className="">

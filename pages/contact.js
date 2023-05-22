@@ -20,7 +20,7 @@ function About() {
     return (
         <Layout>
             <Head>
-                <title>Contact Us | Eremia Creative Portfolio Multi-Purpose</title>
+                <title>Contact | Bernardo Fonseca Torres</title>
             </Head>
             {/*========== Header Normal ========== */}
             <HeaderNormal className="text-center">
