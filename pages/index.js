@@ -67,9 +67,9 @@ function Home() {
                 overlay={4}
                 data-dsn-title="start"
             >
-                <p className="pt-30 border-top">
+                <h4 className="pt-30">
                     Digital Craftsman based in Hannover, Germany. Currently Frontend Developer and UX/UI Designer @Lohoff.
-                </p>
+                </h4>
                 <Button href={"/about"} className="mt-30 line-head" borderStyle={"border-color-theme-color"}
                         borderRadius>
                     About Me

@@ -22,6 +22,7 @@ import {getServiceData} from "../data/service";
 import Image from "next/image";
 import ModalContact from "../components/model-right/ModalContact";
 import Head from "next/head";
+import Footer from "../components/footer/Footer"
 
 function About() {
     TitleSection.defaultProps = {
@@ -178,6 +179,9 @@ function About() {
             {/*========== Start Next Page Section ==========*/}
             <NextPage className={`background-section section-padding`}/>
             {/*========== End Next Page Section ==========*/}
+            {/*========== Footer ==========*/}
+            <Footer className="background-section"/>
+            {/*========== End Footer ==========*/}
         </Layout>
     );
 }
