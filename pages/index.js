@@ -21,6 +21,7 @@ import BlogSwiper from "../components/bolg/BlogSwiper";
 import Team from "../components/Team/Team";
 import BrandClient from "../components/brand-client/BrandClient";
 import HeaderFull from "../components/header/HeaderFull";
+import CookieBanner from "../components/cookie-banner/CookieBanner";
 
 import NextPage from "../components/next/NextPage";
 import Footer from "../components/footer/Footer";
@@ -47,6 +48,7 @@ function Home() {
                     Home | Bernardo Fonseca Torres - Digital Craftsman
                 </title>
             </Head>
+
             {/* <SliderPortfolio
                 webgel
                 fullWidth
@@ -60,6 +62,7 @@ function Home() {
             {/* <div className="section-margin" data-dsn-title="Start">
                 <HeroSection className="container" />
             </div> */}
+            
             <HeaderFull 
                 className="container" 
                 heroContent={headerContent} 

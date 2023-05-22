@@ -22,6 +22,8 @@ import RightScrollTop from "../components/option-theme/RightScrollTop";
 import {checkMobile, parallaxIt} from "../hooks/helper";
 import LoadingPage from "../layout/LoadingPage";
 import {tdEnd} from "../hooks/transition/transitionDefalut";
+import CookieBanner from "../components/cookie-banner/CookieBanner";
+import CookieConsent from "../components/cookie-consent/CookieConsent";
 
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
@@ -136,6 +138,7 @@ function MyApp({Component, pageProps}) {
             <div id="__dsn_content" className={colorPage}>
                 <LoadingPage/>
                 <EremiaMenu hamburger/>
+                <CookieConsent/>
                 <Component  {...pageProps} />
                 <OptionTheme lineTheme={[creativeLine, setCreativeLine]} pageColor={[colorPage, setColorPage]}/>
                 <RightScrollTop options={{duration: 1.5, ease: "power4.inOut"}}/>
