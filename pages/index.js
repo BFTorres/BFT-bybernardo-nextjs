@@ -27,10 +27,12 @@ import NextPage from "../components/next/NextPage";
 import Footer from "../components/footer/Footer";
 import ModalContact from "../components/model-right/ModalContact";
 import Head from "next/head";
+import HeaderNormal from "../components/header/HeaderNormal";
+import OptionTheme from "../components/option-theme/OptionTheme";
 
 const headerContent = {
-    title: `Bernardo Fonseca`,/* 
-    subtitle: `<span class="background-section pl-15 pr-15 pt-5 pb-5 d-inline-block">Welcome</span>`, */
+    title: `bybernardo`,
+    subtitle: `<span class="background-section pl-15 pr-15 pt-5 pb-5 d-inline-block">Bernardo Fonseca Torres</span>`,
     src: "/img/about-me-sketch.png"
 };
 
@@ -67,12 +69,12 @@ function Home() {
                 className="container" 
                 heroContent={headerContent} 
                 skin={"half-personal"} 
-                overlay={4}
+                overlay={6}
                 data-dsn-title="start"
             >
-                <h4 className="pt-30">
+                <h5 className="pt-30">
                     Digital Craftsman based in Hannover, Germany. Currently Frontend Developer and UX/UI Designer @Lohoff.
-                </h4>
+                </h5>
                 <Button href={"/about"} className="mt-30 line-head" borderStyle={"border-color-theme-color"}
                         borderRadius>
                     About Me
@@ -83,6 +85,7 @@ function Home() {
                 </Button>
             </HeaderFull>
             
+
             {/*Start Portfolio*/}
             <div className="section-margin" data-dsn-title="Portfolio">
                 <TitleSection
@@ -264,6 +267,7 @@ function Home() {
                     />
                 </BlogSwiper>
             </div> */}
+            
             {/*End Blog*/}
 
             {/*========== team Section ========== */}
