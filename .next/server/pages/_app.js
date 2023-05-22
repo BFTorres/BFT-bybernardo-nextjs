@@ -706,9 +706,7 @@ var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 
 
 
-const MainBrand = external_styled_components_default().div.withConfig({
-    componentId: "sc-b77fdf4b-0"
-})`
+const MainBrand = (external_styled_components_default()).div`
    img{
     width : ${(props)=>props.width};
     max-width: 100%;

@@ -23,9 +23,7 @@ exports.modules = {
 
 
 
-const Bg = styled_components__WEBPACK_IMPORTED_MODULE_3___default().div.withConfig({
-    componentId: "sc-caad18c5-0"
-})`
+const Bg = (styled_components__WEBPACK_IMPORTED_MODULE_3___default().div)`
         height : ${(props)=>props.theme.height};
         position: relative;
 `;

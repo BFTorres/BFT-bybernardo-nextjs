@@ -2,20 +2,15 @@
 
 const nextConfig = {
     output: 'export',
-    reactStrictMode: true,
+    /* reactStrictMode: true,
     swcMinify: true,
     images: {
         unoptimized: true,
         formats: ['image/webp']
     },
-    // i18n: {
-    //     locales: ["en"],
-    //     defaultLocale: "en",
-    // },
     compiler: {
-        // Enables the styled-components SWC transform
         styledComponents: true,
-    }
+    } */
 
 }
 
