@@ -10,6 +10,7 @@ import HeaderFull from "../../components/header/HeaderFull";
 import NextProject from "../../components/next/NextProject";
 import Button from "../../components/button/Button";
 import NextPage from "../../components/next/NextPage";
+import Footer from "../../components/footer/Footer";
 
 function Project4() {
     const heroData = getPortfolioItem('lufthansa');
@@ -84,7 +85,10 @@ function Project4() {
             {/*End Box Info Move Content*/}
 
             {/* <NextProject heroContent={getPortfolioItem('small-silver-car')} number={5}/> */}
-            <NextPage />
+            <NextPage className={`background-section section-padding`}/>
+            {/*========== Footer ==========*/}
+            <Footer className="background-section"/>
+            {/*========== End Footer ==========*/}
 
         </Layout>
     );

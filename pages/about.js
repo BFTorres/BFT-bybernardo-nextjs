@@ -44,9 +44,9 @@ function About() {
                 <h1 className="title text-uppercase">
                     Bernardo Fonseca Torres
                 </h1>
-                <h2 className="text-uppercase">
+                <h3 className="text-uppercase">
                     Digital Craftsman
-                </h2>
+                </h3>
             </HeaderNormal>
             {/*========== End Header Normal ==========*/}
 

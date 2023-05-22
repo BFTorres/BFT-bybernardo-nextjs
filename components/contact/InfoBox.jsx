@@ -5,7 +5,7 @@ function InfoBox({className}) {
     return (
 
         <div className={dsnCN('box-info-contact', className)}>
-            <ul>
+            <ul className="mb-15">
                 <li>
                     <h5 className="title-block mb-15">Contact</h5>
                     {/* <p className="text-p ">+1 (800) 990 8877</p> */}
@@ -15,6 +15,8 @@ function InfoBox({className}) {
                     </div>
 
                 </li>
+            </ul>
+            <ul>
                 {/* <li>
                     <h5 className="title-block mb-15">Info</h5>
                     <p className="text-p">

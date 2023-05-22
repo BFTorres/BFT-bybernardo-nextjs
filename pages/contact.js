@@ -45,7 +45,7 @@ function About() {
 
             {/*Start Contact Form && Info Box*/}
             <div className="section-margin container">
-                <DsnGrid col={2} colTablet={1}>
+                <DsnGrid col={1} colTablet={1}>
                     {/* <ContactForm/> */}
                     <InfoBox />
                 </DsnGrid>
