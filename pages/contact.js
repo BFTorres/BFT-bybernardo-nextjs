@@ -31,7 +31,7 @@ function About() {
                     Look around you<br/> everything is changing.
                 </h1>
                 <p className="dsn-heading-title mt-15 max-w570">    
-                In an ever-changing and uncertain world, your design and online presence become  extensions of yourself. Reach out to me, and let's ensure your success together.
+                In an ever-changing and uncertain world, your design and online presence become  extensions of yourself. Reach out to me, and let&apos;s ensure your success together.
                 </p>
             </HeaderNormal>
             {/*========== End Header Normal ==========*/}

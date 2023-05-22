@@ -116,7 +116,7 @@ function Project1() {
                             </TitleSection>
 
                             <p>
-                                With its brands BMW, MINI, Rolls-Royce and BMW Motorrad the BMW Group is the world's leading manufacturer of premium automobiles and motorcycles and provider of premium financial and mobility services. It has a workforce of approx. 125,000 employees worldwide.
+                                With its brands BMW, MINI, Rolls-Royce and BMW Motorrad the BMW Group is the world&apos;s leading manufacturer of premium automobiles and motorcycles and provider of premium financial and mobility services. It has a workforce of approx. 125,000 employees worldwide.
                             </p>
                             <Button href="https://www.bmwgroup.com/en.html" className="mt-30">
                                 View More <span className="icon">⟶</span>

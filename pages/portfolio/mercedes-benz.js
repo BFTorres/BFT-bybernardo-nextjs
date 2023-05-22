@@ -65,10 +65,10 @@ function Project3(params) {
           <Image className="w-100" alt={""} src={"/img/project/project3/justus-menke-81GpBv2T_bM-unsplash.jpg"} width={1200} height={700}
                sizes="100vw" />
           <p className="dsn-up mt-30 ml-auto mr-auto max-w570">
-            Mercedes-Benz Group AG is one of the world's most successful automotive companies. With Mercedes-Benz AG, the Group is one of the leading global suppliers of premium and luxury cars and vans. Mercedes-Benz Mobility AG offers financing, leasing, car subscription and car rental, fleet management, digital services for charging and payment, insurance brokerage, as well as innovative mobility services.
+            Mercedes-Benz Group AG is one of the world&apos;s most successful automotive companies. With Mercedes-Benz AG, the Group is one of the leading global suppliers of premium and luxury cars and vans. Mercedes-Benz Mobility AG offers financing, leasing, car subscription and car rental, fleet management, digital services for charging and payment, insurance brokerage, as well as innovative mobility services.
           </p>
           <p className="dsn-up mt-30 ml-auto mr-auto max-w570">
-            The company founders, Gottlieb Daimler and Carl Benz, made history by inventing the automobile in 1886. As a pioneer of automotive engineering, Mercedes-Benz sees shaping the future of mobility in a safe and sustainable way as both a motivation and obligation. The company's focus therefore remains on innovative and green technologies as well as on safe and superior vehicles that both captivate and inspire.
+            The company founders, Gottlieb Daimler and Carl Benz, made history by inventing the automobile in 1886. As a pioneer of automotive engineering, Mercedes-Benz sees shaping the future of mobility in a safe and sustainable way as both a motivation and obligation. The company&apos;s focus therefore remains on innovative and green technologies as well as on safe and superior vehicles that both captivate and inspire.
           </p>
           <Button href="https://group.mercedes-benz.com/en/" className="mt-30">
             View More <span className="icon">⟶</span>

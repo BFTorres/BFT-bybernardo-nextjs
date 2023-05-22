@@ -282,7 +282,7 @@ function Home() {
                     className={`align-items`}
                     description={""}
                 >
-                    I've worked on projects for
+                    I&apos;ve worked on projects for
                 </TitleSection>
 
                 <BrandClient col={3} colTablet={3} colMobile={2} colGap={0} rowGap={0}/>
