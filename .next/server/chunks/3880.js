@@ -153,11 +153,11 @@ function NextProject({ height , number , attrContent , heroContent , className  
                                 children: [
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                         className: "title-stroke",
-                                        children: "Yaren collection"
+                                        children: "Thyssenkrupp"
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                         className: "p-absolute section-padding d-none top-0 w-100 h-100 left-0",
-                                        children: "Yaren collection"
+                                        children: "Thyssenkrupp"
                                     })
                                 ]
                             })

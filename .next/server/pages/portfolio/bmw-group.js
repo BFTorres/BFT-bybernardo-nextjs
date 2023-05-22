@@ -146,42 +146,26 @@ function Project1() {
                                     className: "title-block text-uppercase mb-20",
                                     children: "Project"
                                 }),
-                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
-                                    className: "intro-project-list",
+                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("blockquote", {
+                                    className: "block-quote",
                                     children: [
-                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("li", {
-                                            className: "p-relative",
-                                            children: [
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("strong", {
-                                                    children: "involvement"
-                                                }),
-                                                " ",
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                                "Frontend Developer, Product Designer"
-                                            ]
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("strong", {
+                                            children: "INVOLVEMENT"
                                         }),
-                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("li", {
-                                            className: "p-relative",
-                                            children: [
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("strong", {
-                                                    children: "client"
-                                                }),
-                                                " ",
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                                "BMW Group"
-                                            ]
+                                        " ",
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
+                                        "Frontend Developer, Product Designer"
+                                    ]
+                                }),
+                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("blockquote", {
+                                    className: "block-quote",
+                                    children: [
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("strong", {
+                                            children: "CLIENT"
                                         }),
-                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("li", {
-                                            className: "p-relative",
-                                            children: [
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("strong", {
-                                                    children: "employer"
-                                                }),
-                                                " ",
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                                "Lohoff."
-                                            ]
-                                        })
+                                        " ",
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
+                                        "BMW Group (@Lohoff.)"
                                     ]
                                 })
                             ]
@@ -195,7 +179,7 @@ function Project1() {
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                     className: "intro-project-description",
-                                    children: "Development of the frontend and implementation of the corporate identity into the user interface of our award winning SaaS solution for the BMW Group."
+                                    children: "Development and design of the user interface, aswell as establishing a top notch user experience and implementing the respective corporate identity into our award winning SaaS solution (Diamond Star - Digitale Innovation inder der bAV Award & HR Excellence Award 2016) for the BMW Group."
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_button_ButtonProject__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {
                                     href: "https://www.value-account.eu/acapif/portal-bmw/public_login.prt",
@@ -206,35 +190,6 @@ function Project1() {
                         })
                     ]
                 })
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_Image_ParallaxImage__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .Z, {
-                alt: "",
-                src: "/img/project/project1/2.jpg",
-                overlay: 3,
-                caption: "asdsadsa"
-            }),
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components_box_gallery_BoxGallery__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {
-                className: "section-margin container",
-                col: 3,
-                children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_box_gallery_BoxGallery__WEBPACK_IMPORTED_MODULE_1__/* .BoxGalleryItem */ .O, {
-                        src: "/img/project/project1/3.jpg",
-                        groupPopup: "gallery"
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_box_gallery_BoxGallery__WEBPACK_IMPORTED_MODULE_1__/* .BoxGalleryItem */ .O, {
-                        src: "/img/project/project1/4.jpg",
-                        groupPopup: "gallery"
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_box_gallery_BoxGallery__WEBPACK_IMPORTED_MODULE_1__/* .BoxGalleryItem */ .O, {
-                        src: "/img/project/project1/5.jpg",
-                        groupPopup: "gallery"
-                    })
-                ]
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_Image_ParallaxImage__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .Z, {
-                alt: "",
-                src: "/img/project/project1/6.jpg",
-                caption: "asdsadsa"
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
                 className: "box-gallery-vertical container section-margin",
@@ -248,7 +203,7 @@ function Project1() {
                                 className: "box-im w-100 h-100 p-absolute",
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_Image_ParallaxImage__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .Z, {
                                     alt: "",
-                                    src: "/img/project/project1/7.jpg",
+                                    src: "/img/project/project1/roberto-nickson-Qk3mqkBuTdg-unsplash.jpg",
                                     height: "100%"
                                 })
                             })
@@ -259,22 +214,18 @@ function Project1() {
                                 className: "box-info h-100 box-padding background-section ",
                                 children: [
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_heading_TitleCover__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                                        children: "speaker"
+                                        children: "CLIENT"
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_heading_TitleSection__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z, {
                                         className: "text-uppercase mb-30",
                                         defaultSpace: false,
-                                        children: "Maybe speaker"
+                                        children: "BMW Group"
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                        children: "A system that young people around the world with a club culture and techno enthusiasts feel identified. We generated a simple logo that is the basis for generating a geometric and liquid system."
-                                    }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                        className: "mt-15",
-                                        children: "A system that young people around the world with a club culture and techno enthusiasts feel identified. We generated a simple logo that is the basis for generating a geometric and liquid system."
+                                        children: "With its brands BMW, MINI, Rolls-Royce and BMW Motorrad the BMW Group is the world's leading manufacturer of premium automobiles and motorcycles and provider of premium financial and mobility services. It has a workforce of approx. 125,000 employees worldwide."
                                     }),
                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components_button_Button__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
-                                        href: "#0",
+                                        href: "https://www.bmwgroup.com/en.html",
                                         className: "mt-30",
                                         children: [
                                             "View More ",
@@ -291,7 +242,7 @@ function Project1() {
                 })
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_next_NextProject__WEBPACK_IMPORTED_MODULE_11__/* ["default"] */ .Z, {
-                heroContent: (0,_data_portfolio__WEBPACK_IMPORTED_MODULE_10__/* .getPortfolioItem */ .x6)("yaren-collection"),
+                heroContent: (0,_data_portfolio__WEBPACK_IMPORTED_MODULE_10__/* .getPortfolioItem */ .x6)("thyssenkrupp"),
                 number: 2
             })
         ]
@@ -528,7 +479,7 @@ module.exports = import("@fortawesome/free-brands-svg-icons");;
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [9210,9403,1664,3121,5675,4597,1566,3233,6401,3042,1688,2536,4425,6964,2055,4557,7705,3880,1610], () => (__webpack_exec__(2764)));
+var __webpack_exports__ = __webpack_require__.X(0, [9210,9403,1664,3121,5675,4597,1566,1688,3233,3042,6401,2536,4425,6964,2055,4557,7705,1610,3880], () => (__webpack_exec__(2764)));
 module.exports = __webpack_exports__;
 
 })();

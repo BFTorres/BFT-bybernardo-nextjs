@@ -41,7 +41,7 @@ const data = [
     {
         id: 3,
         title: "Thyssenkrupp & TKE",
-        slug: "thyssen-collection",
+        slug: "thyssenkrupp",
         src: "/img/project/project2/ant-rozetsky-SLIFI67jv5k-unsplash.jpg",
         category: [
             "FinTech",
@@ -53,43 +53,36 @@ const data = [
     },
     {
         id: 4,
-        title: "Lufthansa CityLine",
-        slug: "lufthansa-cityline",
+        title: "Lufthansa",
+        slug: "lufthansa",
         category: [
             "FinTech",
             "Frontend",
             "Design"
         ],
-        src: "/img/project/project4/1.jpg",
-        description: "FinTech application for Lufthansa CityLine.",
+        src: "/img/project/project4/plane-gff4c52fb7_1920.jpg",
+        description: "FinTech application for Lufthansa.",
         overlay: 2
-    },
+    } /* ,
     {
         id: 5,
         title: "InCapSolution",
-        slug: "incapsolution",
-        src: "/img/project/project5/1.jpg",
-        category: [
-            "Medical Research",
-            "Frontend",
-            "Design"
-        ],
-        description: "Web application & corporate identity for a medical research statrtup based in Germany.",
+        slug: 'incapsolution',
+        src: '/img/project/project5/1.jpg',
+
+        category: ['Medical Research', 'Frontend', 'Design'],
+        description: 'Web application & corporate identity for a medical research statrtup based in Germany.',
         overlay: 5
     },
     {
         id: 6,
         title: "KRONOS",
-        slug: "kronos",
-        category: [
-            "Ironhack",
-            "Full Stack",
-            "Hotel Industry"
-        ],
-        src: "/img/project/project6/1.jpg",
-        description: "Task Management System for the Hotel industry. Ironhack project module 2.",
+        slug: 'kronos',
+        category: ['Ironhack', 'Full Stack', 'Hotel Industry'],
+        src: '/img/project/project6/1.jpg',
+        description: 'Task Management System for the Hotel industry. Ironhack project module 2.',
         overlay: 4
-    }
+    } */ 
 ];
 const getPortfolioData = ()=>data;
 const getPortfolioItem = (value, whereName = "slug")=>{

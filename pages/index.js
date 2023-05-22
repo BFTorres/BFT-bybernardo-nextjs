@@ -4,6 +4,8 @@ import SliderPortfolio from "../components/slider-portfolio/SliderPortfolio";
 import HeroSection from "../components/hero-section/HeroSection";
 import HeroSection2 from "../components/hero-section/HeroSection2";
 import HeroSectionThree from "../components/hero-section/HeroSectionThree";
+import HeroSectionFour from "../components/hero-section/HeroSectionFour";
+import HeroSectionPersonal from "../components/hero-section/HeroSectionPersonal";
 import TitleSection from "../components/heading/TitleSection";
 import ServiceOne from "../components/services/grid/ServiceOne";
 import ParallaxImage from "../components/Image/ParallaxImage";
@@ -18,12 +20,18 @@ import TitleCover from "../components/heading/TitleCover";
 import BlogSwiper from "../components/bolg/BlogSwiper";
 import Team from "../components/Team/Team";
 import BrandClient from "../components/brand-client/BrandClient";
+import HeaderFull from "../components/header/HeaderFull";
 
 import NextPage from "../components/next/NextPage";
 import Footer from "../components/footer/Footer";
 import ModalContact from "../components/model-right/ModalContact";
 import Head from "next/head";
 
+const headerContent = {
+    title: `Bernardo Fonseca`,/* 
+    subtitle: `<span class="background-section pl-15 pr-15 pt-5 pb-5 d-inline-block">Welcome</span>`, */
+    src: "/img/about-me-sketch.png"
+};
 
 function Home() {
     TitleSection.defaultProps = {
@@ -49,10 +57,31 @@ function Home() {
                 }}
                 metaData={{hasSeparator: true}}
             /> */}
-            <HeroSectionThree className="container section-margin container fill-right-container"
-                         data-dsn-title="How We Are"/>
+            {/* <div className="section-margin" data-dsn-title="Start">
+                <HeroSection className="container" />
+            </div> */}
+            <HeaderFull 
+                className="container" 
+                heroContent={headerContent} 
+                skin={"half-personal"} 
+                overlay={4}
+                data-dsn-title="start"
+            >
+                <p className="pt-30 border-top">
+                    Digital Craftsman based in Hannover, Germany. Currently Frontend Developer and UX/UI Designer @Lohoff.
+                </p>
+                <Button href={"/about"} className="mt-30 line-head" borderStyle={"border-color-theme-color"}
+                        borderRadius>
+                    About Me
+                </Button>
+                <Button href={"/slider-full-distortion-h"} className="mt-30" borderStyle={"border-color-theme-color"}
+                        borderRadius>
+                    Work
+                </Button>
+            </HeaderFull>
+            
             {/*Start Portfolio*/}
-            <div className="section-margin" data-dsn-title="Our Portfolio">
+            <div className="section-margin" data-dsn-title="Portfolio">
                 <TitleSection
                     className={`container align-items-center text-center`}
                 >
@@ -83,7 +112,7 @@ function Home() {
             {/*End Portfolio*/}
 
             {/*Start Service*/}
-            <div className="container section-margin" data-dsn-title="Our Services">
+            {/* <div className="container section-margin" data-dsn-title="Our Services">
                 <TitleSection
                     className="align-items-center text-center"
                     description={"Our Services"}
@@ -91,11 +120,11 @@ function Home() {
                     We are delivering beautiful <br/> digital products for you.
                 </TitleSection>
                 <ServiceOne/>
-            </div>
+            </div> */}
             {/*End Service*/}
 
             {/*Start Box Info Move Content*/}
-            <div className="p-relative section-margin">
+            {/* <div className="p-relative section-margin">
                 <ParallaxImage src="/img/project/project3/2.jpg" overlay={2} alt={""}/>
                 <MoveBox tablet={false}>
                     <TitleSection
@@ -123,14 +152,14 @@ function Home() {
                         NOTE : Some details are very important.
                     </p>
                 </MoveBox>
-            </div>
+            </div> */}
             {/*End Box Info Move Content*/}
 
 
             
 
             {/*Start testimonial Section*/}
-            <div className="section-margin" data-dsn-title="Testimonials">
+            {/* <div className="section-margin" data-dsn-title="Testimonials">
                 <Testimonial className="container section-margin" title="Feedback from our clients."
                              skin={["testimonials-half"]}
                              backgroundColor={"background-section"}
@@ -142,13 +171,13 @@ function Home() {
                 >
                     <SwiperPagination className={`justify-content-between dsn-container mt-30`}/>
                 </Testimonial>
-            </div>
+            </div> */}
 
 
             {/*End testimonial Section*/}
 
             {/*Start box vertical Section*/}
-            <section className="box-gallery-vertical container section-margin" data-dsn-title="Our Services">
+            {/* <section className="box-gallery-vertical container section-margin" data-dsn-title="Our Services">
                 <DsnGrid col={2} colTablet={1} colGap={0} rowGap={0} rowGapTablet={0} rowGapMobile={0}>
                     <div className="p-relative mb-lg-section">
                         <div className="box-im w-100 h-100 p-absolute">
@@ -199,7 +228,7 @@ function Home() {
                         </div>
                     </div>
                 </DsnGrid>
-            </section>
+            </section> */}
             {/*End box vertical Section*/}
 
             {/*Start Blog*/}
@@ -248,21 +277,20 @@ function Home() {
             {/*========== End team Section ========== */}
 
             {/*========== End brand-client Section ==========*/}
-            <section className="container section-margin" data-dsn-title="our clients">
+            <section className="container section-margin" data-dsn-title="clients">
                 <TitleSection
-                    className={`align-items-center text-center`}
-                    description={"Our clients"}
+                    className={`align-items`}
+                    description={""}
                 >
-                    Your successful, our <br/>
-                    reputation
+                    I've worked on projects for
                 </TitleSection>
 
-                <BrandClient col={4} colTablet={3} colMobile={2} colGap={0} rowGap={0}/>
+                <BrandClient col={3} colTablet={3} colMobile={2} colGap={0} rowGap={0}/>
             </section>
             {/*========== End brand-client Section ==========*/}
 
             {/*========== Next Page ==========*/}
-            <NextPage className="section-padding border-top background-section"/>
+            <NextPage className="section-padding border-top background-section" data-dsn-title="contact"/>
             {/*========== End Next Page ==========*/}
 
             {/*========== Footer ==========*/}

@@ -3,9 +3,9 @@ import Button from "../button/Button";
 import BgDot from "../header/BgDot";
 
 const NextContent = {
-    title: "Would you like more information \nor do you have a question?",
-    subtitle: `Don't be weird.`,
-    buttonText: "Contact Us"
+    title: "Let's work together",
+    /* subtitle: `Don't be weird.`, */
+    buttonText: "Contact me"
 };
 
 function NextPage({className, ...restProps}) {
@@ -18,9 +18,9 @@ function NextPage({className, ...restProps}) {
             <div className="container w-100">
                 <div className="c-wrapper d-flex justify-content-between">
                     <div className="d-flex flex-column">
-                        <p className="sub-heading line-shape line-shape-after ">
+                        {/* <p className="sub-heading line-shape line-shape-after ">
                             <span className="line-bg-left">{NextContent.subtitle}</span>
-                        </p>
+                        </p> */}
                         <h2 className="section-title max-w750 mt-15">
                             {NextContent.title}
                         </h2>

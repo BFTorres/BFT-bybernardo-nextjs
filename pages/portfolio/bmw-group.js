@@ -27,8 +27,14 @@ function Project1() {
                 <DsnGrid customGrid={{desktop:"40% 60%"}}>
                     <div className="intro-project-left">
                         <h4 className="title-block text-uppercase mb-20">Project</h4>
-                        <ul className="intro-project-list">
-                            <li className="p-relative">
+                        {/* <ul className="intro-project-list"> */}
+                            <blockquote className="block-quote">
+                                    <strong>INVOLVEMENT</strong> <br />Frontend Developer, Product Designer
+                            </blockquote>
+                            <blockquote className="block-quote">
+                                <strong>CLIENT</strong> <br />BMW Group (@Lohoff.)
+                            </blockquote>
+                            {/* <li className="p-relative">
                                 <strong>involvement</strong> <br />Frontend Developer, Product Designer
                             </li>
                             <li className="p-relative">
@@ -36,13 +42,13 @@ function Project1() {
                             </li>
                             <li className="p-relative">
                                 <strong>employer</strong> <br />Lohoff.
-                            </li>
-                        </ul>
+                            </li> */}
+                        {/* </ul> */}
                     </div>
                     <div className="intro-project-right">
                         <h4 className="title-block text-uppercase mb-20">info</h4>
                         <p className="intro-project-description">
-                            Development of the frontend and implementation of the corporate identity into the user interface of our award winning SaaS solution for the BMW Group.
+                            Development and design of the user interface, aswell as establishing a top notch user experience and implementing the respective corporate identity into our award winning SaaS solution (Diamond Star - Digitale Innovation inder der bAV Award & HR Excellence Award 2016) for the BMW Group.
                         </p>
                         <ButtonProject href="https://www.value-account.eu/acapif/portal-bmw/public_login.prt" className="mt-30">
                             VISIT PROJECT
@@ -53,17 +59,17 @@ function Project1() {
             {/*End Intro Project*/}
 
             {/*Start Parallax Img*/}
-            <ParallaxImage
+            {/* <ParallaxImage
                 alt={""}
                 src={"/img/project/project1/2.jpg"}
                 overlay={3}
                 caption="asdsadsa"
-            />
+            /> */}
             {/*End Parallax Img*/}
 
 
             {/*Start Gallery List*/}
-            <BoxGallery className="section-margin container" col={3}>
+            {/* <BoxGallery className="section-margin container" col={3}>
                 <BoxGalleryItem
                     src="/img/project/project1/3.jpg"
                     groupPopup="gallery"
@@ -76,15 +82,15 @@ function Project1() {
                     src="/img/project/project1/5.jpg"
                     groupPopup="gallery"
                 />
-            </BoxGallery>
+            </BoxGallery> */}
             {/*End Gallery List*/}
 
             {/*Start Parallax Img*/}
-            <ParallaxImage
+            {/* <ParallaxImage
                 alt={""}
                 src={"/img/project/project1/6.jpg"}
                 caption="asdsadsa"
-            />
+            /> */}
             {/*End Parallax Img*/}
 
             {/*Start box vertical Section*/}
@@ -94,34 +100,25 @@ function Project1() {
                         <div className="box-im w-100 h-100 p-absolute">
                             <ParallaxImage
                                 alt={""}
-                                src={"/img/project/project1/7.jpg"}
+                                src={"/img/project/project1/roberto-nickson-Qk3mqkBuTdg-unsplash.jpg"}
                                 height="100%"
                             />
                         </div>
                     </div>
                     <div className="p-relative pt-lg-section">
                         <div className="box-info h-100 box-padding background-section ">
-                            <TitleCover>speaker</TitleCover>
+                            <TitleCover>CLIENT</TitleCover>
                             <TitleSection
                                 className={"text-uppercase mb-30"}
                                 defaultSpace={false}
                             >
-                                Maybe speaker
+                                BMW Group
                             </TitleSection>
 
                             <p>
-                                A system that young people around the world with a club culture
-                                and techno enthusiasts feel identified. We generated a simple
-                                logo that is the basis for generating a geometric and liquid
-                                system.
+                                With its brands BMW, MINI, Rolls-Royce and BMW Motorrad the BMW Group is the world's leading manufacturer of premium automobiles and motorcycles and provider of premium financial and mobility services. It has a workforce of approx. 125,000 employees worldwide.
                             </p>
-                            <p className="mt-15">
-                                A system that young people around the world with a club culture
-                                and techno enthusiasts feel identified. We generated a simple
-                                logo that is the basis for generating a geometric and liquid
-                                system.
-                            </p>
-                            <Button href="#0" className="mt-30">
+                            <Button href="https://www.bmwgroup.com/en.html" className="mt-30">
                                 View More <span className="icon">⟶</span>
                             </Button>
                         </div>
@@ -130,7 +127,7 @@ function Project1() {
             </section>
             {/*End box vertical Section*/}
 
-            <NextProject heroContent={getPortfolioItem('yaren-collection')} number={2}  />
+            <NextProject heroContent={getPortfolioItem('thyssenkrupp')} number={2}  />
         </Layout>
     );
 }

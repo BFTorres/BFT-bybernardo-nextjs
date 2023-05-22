@@ -21,29 +21,19 @@ exports.modules = {
 
 const data = [
     {
-        src: "/img/logo/1.png"
+        src: "/img/logo/BMW-Group-logo.svg"
     },
     {
-        src: "/img/logo/2.png"
+        src: "/img/logo/download (12).png"
     },
     {
-        src: "/img/logo/3.png"
-    },
-    {
-        src: "/img/logo/4.png"
-    },
-    {
-        src: "/img/logo/5.png"
-    },
-    {
-        src: "/img/logo/6.png"
-    },
-    {
-        src: "/img/logo/1.png"
-    },
-    {
-        src: "/img/logo/3.png"
-    }
+        src: "/img/logo/Mercedes-Benz_free_logo.svg"
+    } /* ,
+    {src: "/img/logo/Mercedes-Benz_free_logo.svg.png"},
+    {src: "/img/logo/5.png"},
+    {src: "/img/logo/6.png"},
+    {src: "/img/logo/1.png"},
+    {src: "/img/logo/3.png"}, */ 
 ];
 function BrandClient({ className , ...retsProps }) {
     return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_layout_DsnGrid__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
@@ -56,8 +46,8 @@ function BrandClient({ className , ...retsProps }) {
                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_3___default()), {
                         src: $item?.src,
                         alt: "",
-                        width: 180,
-                        height: 54
+                        width: 80,
+                        height: 30
                     })
                 })
             }, $index))

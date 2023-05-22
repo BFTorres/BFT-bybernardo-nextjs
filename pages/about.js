@@ -50,65 +50,60 @@ function About() {
             {/*========== End Header Normal ==========*/}
 
             {/*Start Parallax Img*/}
-            <ParallaxImage alt={""} src={"/img/about/5.jpg"}
-                           parallaxFrom={{scale: 1.3}} parallax={{scale: 1}}
+            <ParallaxImage alt={""} src={"/img/IMG_3797.PNG"}
+                           parallaxFrom={{scale: 0.1}} parallax={{scale: 1}}
                            overlay={5}/>
             {/*End Parallax Img*/}
 
             {/*<!-- ========== About Section ========== */}
             <div className="container section-margin" data-dsn-title="About">
 
-                <TitleSection className="mb-15" description={"What We Do"} defaultSpace={false}/>
+                <TitleSection className="mb-15" description={"Developer & Designer"} defaultSpace={false}/>
                 <DsnGrid col={2} colTablet={1}>
                     <div className="box-left">
-                        <h4> Keep Your Business Safe & Ensure High Availability </h4>
+                        <h4>My inspiration relies on the freedom of endless possibilities, and my passion for designing and developing products with a touch of simplicity and originality.</h4>
                     </div>
                     <div className="box-right">
                         <p className="max-w570 dsn-up mb-15 ">
-                            A business consulting agency is involved in the planning,
-                            implementation, and education of businesses. We work directly with
-                            business owners on developing a business plan, identifying
-                            marketing needs and developing the necessary skills for business
-                            ownership.
+                            Born and raised in Rio de Janeiro, my family and I moved to Germany in 2002, where I specialized after high school as a Hotel Industry Expert @<a className="" href="https://group.accor.com/en" target="_blank">Accor</a>. After ten years of professional experience in event management and sales, I graduated from the Ironhack Tech School as a Fullstack Developer, subsequently starting my career in Tech.
                         </p>
 
                         <p className="max-w570 dsn-up">
-                            but deploy to production. C-suite. First-order optimal strategies
-                            build on a culture of contribution and inclusion so those options
+                            As a software developer and designer with experience in FinTech, I specialize in creating award-winning SaaS solutions that prioritize user experience and clean user interface design. Currently, I am overseeing the frontend and design for a diverse portfolio of clients @Lohoff, including BMW Group, Mercedes Benz, Thyssenkrupp, and Lufthansa. My expertise in implementing  corporate identities and agile methodologies into our user interfaces and workflows has allowed me to develop, redesign and modernize multiple prominent FinTech applications.
                         </p>
                     </div>
                 </DsnGrid>
                 <List className="pt-50 mt-50 border-top pt-md-30 mt-md-30" col={3} iconSize={"21px"}>
                     <List.item icon={<FontAwesomeIcon icon={faCheck} className="theme-color"/>}
-                               className="align-items-center"> Advanced Grid </List.item>
+                               className="align-items-center"> FinTech </List.item>
                     <List.item icon={<FontAwesomeIcon icon={faCheck} className="theme-color"/>}
-                               className="align-items-center"> Top Performance</List.item>
+                               className="align-items-center"> Frontend Development </List.item>
                     <List.item icon={<FontAwesomeIcon icon={faCheck} className="theme-color"/>}
-                               className="align-items-center"> Responsive Design</List.item>
+                               className="align-items-center"> UI/UX Design </List.item>
                 </List>
             </div>
             {/*<!-- ========== End About Section ========== */}
 
             {/*Start Gallery List*/}
-            <BoxGallery className="section-margin container" col={2}>
+            {/* <BoxGallery className="section-margin container" col={2}>
                 <BoxGalleryItem src="/img/help-project.jpg" groupPopup="gallery"/>
                 <BoxGalleryItem src="/img/plan-project.jpg" groupPopup="gallery"/>
-            </BoxGallery>
+            </BoxGallery> */}
             {/*End Gallery List*/}
 
             {/*Start awards Section*/}
-            <section className="section-padding background-section" data-dsn-title="Services">
+            {/* <section className="section-padding background-section" data-dsn-title="Services">
                 <div className="container">
                     <TitleSection description="Our Services">
                         We are delivering beautiful <br/> digital products for you.
                     </TitleSection>
                     <Service.grid className="icon-left" styleBox="list" data={getServiceData().slice(0, 3)}/>
                 </div>
-            </section>
+            </section> */}
             {/*End awards Section*/}
 
 
-            <section className="awards-section section-margin" data-dsn-title="Awards">
+            {/* <section className="awards-section section-margin" data-dsn-title="Awards">
                 <div className="container">
                     <DsnGrid col={2} colTablet={1}>
                         <div className="box-left">
@@ -128,20 +123,20 @@ function About() {
                         </div>
                     </DsnGrid>
                 </div>
-            </section>
+            </section> */}
 
             {/*========== team Section ========== */}
-            <section className="container section-margin " data-dsn-title="Team">
+            {/* <section className="container section-margin " data-dsn-title="Team">
                 <TitleSection description={"Our Team"}>
                     The Best Team Ever!
                 </TitleSection>
 
                 <Team data={getTeamData().slice(0, 4)} col={2} colTablet={2}/>
-            </section>
+            </section> */}
             {/*========== End team Section ========== */}
 
             {/*Start testimonial Section*/}
-            <div className="container section-margin" data-dsn-title="testimonials">
+            {/* <div className="container section-margin" data-dsn-title="testimonials">
                 <TitleSection description={" Feedback"}>What Clients Say</TitleSection>
 
                 <Testimonial
@@ -167,17 +162,16 @@ function About() {
                         className={`justify-content-between dsn-container mt-30`}
                     />
                 </Testimonial>
-            </div>
+            </div> */}
             {/*End testimonial Section*/}
 
             {/*========== Start brand-client Section ==========*/}
             <section className="container section-margin" data-dsn-title="Client">
-                <TitleSection description={"Our clients"}>
-                    Your successful, our <br/>
-                    reputation
+                <TitleSection>
+                    I've worked on projects for
                 </TitleSection>
 
-                <BrandClient col={4} colTablet={2} colGap={0} rowGap={0}/>
+                <BrandClient col={3} colTablet={3} colGap={0} rowGap={0}/>
             </section>
             {/*========== End brand-client Section ==========*/}
 

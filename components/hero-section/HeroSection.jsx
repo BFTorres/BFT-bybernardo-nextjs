@@ -31,13 +31,13 @@ function HeroSection({className, ...restProps}) {
         <section className={dsnCN(`about-section p-relative`, className)} {...restProps}>
             <DsnGrid col={2} colTablet={1} colGap={50} rowGap={40}>
                 <div className="box-info pt-60 pb-60">
-                    <MoveTrigger from={{y: 0}} to={{y: -70}} tablet={false} mobile={false}>
+                    {/* <MoveTrigger from={{y: 0}} to={{y: -70}} tablet={false} mobile={false}>
                         {(ref) => <h2 className="section-title title-move mb-30 text-uppercase"
                                       dangerouslySetInnerHTML={{__html: HeroContent.title}} ref={ref}/>}
-                    </MoveTrigger>
+                    </MoveTrigger> */}
                     <FadeUpTrigger>
                         {(ref) => <>
-                            <h6 className="title-block border-bottom pb-30 mb-30" ref={ref}>{HeroContent.subtitle}</h6>
+                            <h1 className="title-block border-bottom pb-30 mb-30" ref={ref}>{HeroContent.subtitle}</h1>
                             <p className="mb-30" ref={ref} style={{maxWidth: 570}} dangerouslySetInnerHTML={{__html: HeroContent.description}}/>
                             <h5 className="sm-title-block line-shape line-shape-after mb-10" ref={ref}>{HeroContent.authorTitle}</h5>
                             <span className="sub-heading line-bg-left" ref={ref}>{HeroContent.authorJob}</span>

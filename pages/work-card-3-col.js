@@ -19,11 +19,11 @@ function Work() {
 
         {/*========== Header Normal ========== */}
             <HeaderNormal backgroundColor="background-section" className="text-center">
-                <p className="subtitle p-relative line-shape  dsn-load-animate">
-                    <span className="pl-10 pr-10 background-main">SOME OF OUR LATEST</span>
-                </p>
+                {/* <p className="subtitle p-relative line-shape  dsn-load-animate">
+                    <span className="pl-10 pr-10 background-main"></span>
+                </p> */}
                 <h1 className="title text-uppercase">
-                    OUR BEST WORKS
+                    PORTFOLIO
                 </h1>
             </HeaderNormal>
             {/*========== End Header Normal ==========*/}

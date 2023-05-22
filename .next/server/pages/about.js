@@ -6,41 +6,37 @@ exports.ids = [2521];
 exports.modules = {
 
 /***/ 3652:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
 
 
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "Z": () => (/* binding */ awards_Awards)
-});
+// UNUSED EXPORTS: default
 
 // EXTERNAL MODULE: external "react/jsx-runtime"
 var jsx_runtime_ = __webpack_require__(997);
 // EXTERNAL MODULE: ./node_modules/next/image.js
 var next_image = __webpack_require__(5675);
-var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 ;// CONCATENATED MODULE: ./components/awards/AwardsItem.tsx
 
 
-function AwardsItem({ className , data , ...restProps }) {
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+function AwardsItem_AwardsItem({ className , data , ...restProps }) {
+    return /*#__PURE__*/ _jsxs("div", {
         className: "award-item has-border",
         ...restProps,
         children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+            /*#__PURE__*/ _jsx("div", {
                 className: "award-number",
                 children: data.number
             }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+            /*#__PURE__*/ _jsxs("div", {
                 className: "award-logo",
                 children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                    /*#__PURE__*/ _jsx(Image, {
                         src: data.src,
                         alt: "",
                         width: 200,
                         height: 200
                     }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("h4", {
+                    /*#__PURE__*/ _jsx("h4", {
                         className: "sm-title-block",
                         children: data.title
                     })
@@ -49,7 +45,7 @@ function AwardsItem({ className , data , ...restProps }) {
         ]
     });
 }
-/* harmony default export */ const awards_AwardsItem = (AwardsItem);
+/* harmony default export */ const awards_AwardsItem = ((/* unused pure expression or super */ null && (AwardsItem_AwardsItem)));
 
 ;// CONCATENATED MODULE: ./data/awards.js
 const awardsDetails = [
@@ -69,21 +65,21 @@ const awardsDetails = [
         number: "7"
     }
 ];
-const getAwardsData = ()=>awardsDetails;
+const awards_getAwardsData = ()=>awardsDetails;
 
 ;// CONCATENATED MODULE: ./components/awards/Awards.tsx
 
 
 
 function Awards() {
-    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
+    return /*#__PURE__*/ _jsx("div", {
         className: "awards-inner mt-30",
-        children: getAwardsData().map((item, index)=>/*#__PURE__*/ jsx_runtime_.jsx(awards_AwardsItem, {
+        children: getAwardsData().map((item, index)=>/*#__PURE__*/ _jsx(AwardsItem, {
                 data: item
             }, index))
     });
 }
-/* harmony default export */ const awards_Awards = (Awards);
+/* harmony default export */ const awards_Awards = ((/* unused pure expression or super */ null && (Awards)));
 
 
 /***/ }),
@@ -146,6 +142,44 @@ function HeaderNormal({ className , tag: Tag = "header" , container ="dsn-contai
     }));
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (HeaderNormal);
+
+
+/***/ }),
+
+/***/ 9849:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _hooks_helper__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(9735);
+/* harmony import */ var _layout_DsnGrid__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6878);
+/* harmony import */ var _contact_ContactForm__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(3007);
+/* harmony import */ var _contact_InfoBox__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(242);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(6689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+
+
+
+
+
+
+function ModalContact({ className ="" , ...restProps }) {
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+        className: (0,_hooks_helper__WEBPACK_IMPORTED_MODULE_1__/* .dsnCN */ .gU)("section-padding", className),
+        ...restProps,
+        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_layout_DsnGrid__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
+            col: 2,
+            colTablet: 1,
+            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_contact_InfoBox__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
+                className: "align-self-center"
+            })
+        })
+    });
+}
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ModalContact);
 
 
 /***/ }),
@@ -244,9 +278,9 @@ function About() {
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_Image_ParallaxImage__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z, {
                 alt: "",
-                src: "/img/about/5.jpg",
+                src: "/img/IMG_3797.PNG",
                 parallaxFrom: {
-                    scale: 1.3
+                    scale: 0.1
                 },
                 parallax: {
                     scale: 1
@@ -259,7 +293,7 @@ function About() {
                 children: [
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_heading_TitleSection__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
                         className: "mb-15",
-                        description: "What We Do",
+                        description: "Developer & Designer",
                         defaultSpace: false
                     }),
                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_layout_DsnGrid__WEBPACK_IMPORTED_MODULE_8__/* ["default"] */ .Z, {
@@ -269,19 +303,28 @@ function About() {
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                 className: "box-left",
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
-                                    children: " Keep Your Business Safe & Ensure High Availability "
+                                    children: "My inspiration relies on the freedom of endless possibilities, and my passion for designing and developing products with a touch of simplicity and originality."
                                 })
                             }),
                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                 className: "box-right",
                                 children: [
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
                                         className: "max-w570 dsn-up mb-15 ",
-                                        children: "A business consulting agency is involved in the planning, implementation, and education of businesses. We work directly with business owners on developing a business plan, identifying marketing needs and developing the necessary skills for business ownership."
+                                        children: [
+                                            "Born and raised in Rio de Janeiro, my family and I moved to Germany in 2002, where I specialized after high school as a Hotel Industry Expert @",
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                                className: "",
+                                                href: "https://group.accor.com/en",
+                                                target: "_blank",
+                                                children: "Accor"
+                                            }),
+                                            ". After ten years of professional experience in event management and sales, I graduated from the Ironhack Tech School as a Fullstack Developer, subsequently starting my career in Tech."
+                                        ]
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                         className: "max-w570 dsn-up",
-                                        children: "but deploy to production. C-suite. First-order optimal strategies build on a culture of contribution and inclusion so those options"
+                                        children: "As a software developer and designer with experience in FinTech, I specialize in creating award-winning SaaS solutions that prioritize user experience and clean user interface design. Currently, I am overseeing the frontend and design for a diverse portfolio of clients @Lohoff, including BMW Group, Mercedes Benz, Thyssenkrupp, and Lufthansa. My expertise in implementing  corporate identities and agile methodologies into our user interfaces and workflows has allowed me to develop, redesign and modernize multiple prominent FinTech applications."
                                     })
                                 ]
                             })
@@ -298,7 +341,7 @@ function About() {
                                     className: "theme-color"
                                 }),
                                 className: "align-items-center",
-                                children: " Advanced Grid "
+                                children: " FinTech "
                             }),
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_list_List__WEBPACK_IMPORTED_MODULE_7__/* ["default"].item */ .Z.item, {
                                 icon: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
@@ -306,7 +349,7 @@ function About() {
                                     className: "theme-color"
                                 }),
                                 className: "align-items-center",
-                                children: " Top Performance"
+                                children: " Frontend Development "
                             }),
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_list_List__WEBPACK_IMPORTED_MODULE_7__/* ["default"].item */ .Z.item, {
                                 icon: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
@@ -314,141 +357,9 @@ function About() {
                                     className: "theme-color"
                                 }),
                                 className: "align-items-center",
-                                children: " Responsive Design"
+                                children: " UI/UX Design "
                             })
                         ]
-                    })
-                ]
-            }),
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components_box_gallery_BoxGallery__WEBPACK_IMPORTED_MODULE_10__/* ["default"] */ .Z, {
-                className: "section-margin container",
-                col: 2,
-                children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_box_gallery_BoxGallery__WEBPACK_IMPORTED_MODULE_10__/* .BoxGalleryItem */ .O, {
-                        src: "/img/help-project.jpg",
-                        groupPopup: "gallery"
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_box_gallery_BoxGallery__WEBPACK_IMPORTED_MODULE_10__/* .BoxGalleryItem */ .O, {
-                        src: "/img/plan-project.jpg",
-                        groupPopup: "gallery"
-                    })
-                ]
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
-                className: "section-padding background-section",
-                "data-dsn-title": "Services",
-                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "container",
-                    children: [
-                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components_heading_TitleSection__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                            description: "Our Services",
-                            children: [
-                                "We are delivering beautiful ",
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                " digital products for you."
-                            ]
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_services_Service__WEBPACK_IMPORTED_MODULE_18__/* ["default"].grid */ .Z.grid, {
-                            className: "icon-left",
-                            styleBox: "list",
-                            data: (0,_data_service__WEBPACK_IMPORTED_MODULE_19__/* .getServiceData */ .Y)().slice(0, 3)
-                        })
-                    ]
-                })
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
-                className: "awards-section section-margin",
-                "data-dsn-title": "Awards",
-                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                    className: "container",
-                    children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_layout_DsnGrid__WEBPACK_IMPORTED_MODULE_8__/* ["default"] */ .Z, {
-                        col: 2,
-                        colTablet: 1,
-                        children: [
-                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                className: "box-left",
-                                children: [
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_heading_TitleSection__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                                        description: " Awards & Honors",
-                                        defaultSpace: false,
-                                        children: "The awards won by our project."
-                                    }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_awards_Awards__WEBPACK_IMPORTED_MODULE_16__/* ["default"] */ .Z, {})
-                                ]
-                            }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                className: "box-right",
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                    className: "container-img p-relative",
-                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_20___default()), {
-                                        className: "cover-bg-img",
-                                        alt: "",
-                                        src: "/img/agency-1.jpg",
-                                        width: 1280,
-                                        height: 840,
-                                        sizes: "(max-width: 768px) 100vw,(max-width: 1200px) 75vw,100vw"
-                                    })
-                                })
-                            })
-                        ]
-                    })
-                })
-            }),
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
-                className: "container section-margin ",
-                "data-dsn-title": "Team",
-                children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_heading_TitleSection__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                        description: "Our Team",
-                        children: "The Best Team Ever!"
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_Team_Team__WEBPACK_IMPORTED_MODULE_11__/* ["default"] */ .Z, {
-                        data: (0,_data_team__WEBPACK_IMPORTED_MODULE_17__/* .getTeamData */ .V)().slice(0, 4),
-                        col: 2,
-                        colTablet: 2
-                    })
-                ]
-            }),
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "container section-margin",
-                "data-dsn-title": "testimonials",
-                children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_heading_TitleSection__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                        description: " Feedback",
-                        children: "What Clients Say"
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_testimonial_Testimonial__WEBPACK_IMPORTED_MODULE_12__/* ["default"] */ .Z, {
-                        className: " text-center",
-                        styleBox: "corner",
-                        skin: [
-                            "testimonials-personal",
-                            "box-line"
-                        ],
-                        centeredSlides: true,
-                        desktop: {
-                            slidesPerView: 3
-                        },
-                        tablet: {
-                            slidesPerView: 1
-                        },
-                        mobile: {
-                            slidesPerView: 1
-                        },
-                        speed: 1000,
-                        grabCursor: true,
-                        loop: true,
-                        loopedSlides: 2,
-                        parallax: true,
-                        parallaxImage: {
-                            "data-swiper-parallax-scale": 0.7
-                        },
-                        parallaxContent: {
-                            "data-swiper-parallax-opacity": 0,
-                            "data-swiper-parallax": "30%"
-                        },
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_swiper_pagination_SwiperPagination__WEBPACK_IMPORTED_MODULE_13__/* ["default"] */ .Z, {
-                            className: `justify-content-between dsn-container mt-30`
-                        })
                     })
                 ]
             }),
@@ -456,17 +367,12 @@ function About() {
                 className: "container section-margin",
                 "data-dsn-title": "Client",
                 children: [
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components_heading_TitleSection__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                        description: "Our clients",
-                        children: [
-                            "Your successful, our ",
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                            "reputation"
-                        ]
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_heading_TitleSection__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
+                        children: "I've worked on projects for"
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_brand_client_BrandClient__WEBPACK_IMPORTED_MODULE_15__/* ["default"] */ .Z, {
-                        col: 4,
-                        colTablet: 2,
+                        col: 3,
+                        colTablet: 3,
                         colGap: 0,
                         rowGap: 0
                     })
@@ -737,7 +643,7 @@ module.exports = import("swiper/react");;
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [9210,9403,1664,3121,5675,4597,1566,3042,1688,4396,4425,9475,6964,2055,7270,4628,8788,1610,416,588,18], () => (__webpack_exec__(8953)));
+var __webpack_exports__ = __webpack_require__.X(0, [9210,9403,1664,3121,5675,4597,1566,1688,3042,4396,4425,6331,6964,2055,7270,4628,8788,1610,416,588,18], () => (__webpack_exec__(8953)));
 module.exports = __webpack_exports__;
 
 })();

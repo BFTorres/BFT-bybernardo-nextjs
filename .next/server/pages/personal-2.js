@@ -26,37 +26,19 @@ exports.modules = {
 
 
 const heroData = {
-    title: `Why hire me for your next project`,
-    descTitle: `About Me`,
-    subtitle: `Proin laoreet elementum ligula`,
-    description: `Proin volutpat mauris ac pellentesque pharetra. Suspendisse
-                    congue elit vel odio suscipit, sit amet tempor nisl imperdiet. Quisque ex
-                    justo`,
-    heroImage: "/img/about-me.jpg",
-    infoPersonal: [
-        {
-            key: "Age",
-            value: "29"
-        },
-        {
-            key: "Residence",
-            value: "Egypt"
-        },
-        {
-            key: "Address",
-            value: "27 Some Street, Some Town"
-        },
+    title: `Bernardo Fonseca Torres`,
+    subtitle: `Digital Craftsman`,
+    /* description: `Digital Craftsman`, */ heroImage: "/img/about-me-sketch.png",
+    /* infoPersonal: [
+        {key: "Age", value: "29"},
+        {key: "Residence", value: "Egypt"},
+        {key: "Address", value: "27 Some Street, Some Town"},
         {
             key: "E-Mail",
             value: "info@dsngrid.com",
-            link: {
-                href: "mailto:info@dsngrid.com",
-                target: "_blank",
-                rel: "nofollow"
-            }
-        }
-    ],
-    firstLink: {
+            link: {href: "mailto:info@dsngrid.com", target: "_blank", rel: "nofollow"}
+        },
+    ], */ firstLink: {
         text: "DOWNLOAD CV",
         option: {
             href: "#0",
@@ -67,7 +49,7 @@ const heroData = {
     lastLink: {
         text: "LEARN MORE",
         option: {
-            href: "/services"
+            href: "/PortfolioSwiper"
         }
     }
 };
@@ -114,33 +96,6 @@ function HeroSection({ className , ...restProps }) {
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h5", {
                         className: "sm-title-block theme-color",
                         children: heroData.subtitle
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: "border-bottom mt-20 mb-20"
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                        className: "max-w570",
-                        children: heroData.description
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_layout_DsnGrid__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
-                        as: "ul",
-                        className: "mt-20 pt-20 pb-20 border-bottom border-top",
-                        col: 2,
-                        children: heroData.infoPersonal && heroData.infoPersonal.map((item, index)=>/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("li", {
-                                children: [
-                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("strong", {
-                                        className: "heading-color mr-5",
-                                        children: [
-                                            item.key,
-                                            " : "
-                                        ]
-                                    }),
-                                    item.link ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                        ...item.link,
-                                        children: item.value
-                                    }) : item.value
-                                ]
-                            }, index))
                     }),
                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                         className: "d-flex align-items-center mt-30",
@@ -960,7 +915,7 @@ module.exports = import("swiper/react");;
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [9210,9403,1664,3121,5675,4597,1566,3233,6401,3042,1688,4396,2536,4425,2407,9475,4648,7920,6964,2055,7270,4557,4628,8788,9828,907,9967,8067], () => (__webpack_exec__(3788)));
+var __webpack_exports__ = __webpack_require__.X(0, [9210,9403,1664,3121,5675,4597,1566,1688,3233,3042,6401,4396,2536,4425,2407,6331,4959,6964,7920,2055,4557,7270,4628,8788,9828,907,8067,9967], () => (__webpack_exec__(3788)));
 module.exports = __webpack_exports__;
 
 })();

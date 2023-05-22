@@ -68,24 +68,19 @@ _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_3__ = (__webpack_asy
 
 const socialData = [
     {
-        link: "#0",
-        icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_3__.faDribbble,
-        name: "Db"
+        link: "https://www.linkedin.com/in/bernardo-fonseca-torres/",
+        icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_3__.faLinkedinIn,
+        name: "LinkedIn"
     },
     {
-        link: "#0",
-        icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_3__.faFacebookF,
-        name: "Fb"
+        link: "https://medium.com/@bernardofonsecatorres",
+        icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_3__.faMediumM,
+        name: "Medium"
     },
     {
-        link: "#0",
-        icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_3__.faTwitter,
-        name: "Tw"
-    },
-    {
-        link: "#0",
-        icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_3__.faInstagram,
-        name: "In"
+        link: "https://www.xing.com/profile/Bernardo_FonsecaTorres",
+        icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_3__.faXing,
+        name: "XING"
     }
 ];
 function SocialOne({ className ="" , ...restProps }) {

@@ -27,7 +27,7 @@ const data = [
         id: 3,
         
         title: "Thyssenkrupp & TKE",
-        slug: 'thyssen-collection',
+        slug: 'thyssenkrupp',
         src: '/img/project/project2/ant-rozetsky-SLIFI67jv5k-unsplash.jpg',
         category: ['FinTech', 'Frontend', 'Design'],
         description: 'FinTech application for Thyssenkrupp and TKE.',
@@ -35,13 +35,13 @@ const data = [
     },
     {
         id: 4,
-        title: "Lufthansa CityLine",
-        slug: 'lufthansa-cityline',
+        title: "Lufthansa",
+        slug: 'lufthansa',
         category: ['FinTech', 'Frontend', 'Design'],
-        src: '/img/project/project4/1.jpg',
-        description: 'FinTech application for Lufthansa CityLine.',
+        src: '/img/project/project4/plane-gff4c52fb7_1920.jpg',
+        description: 'FinTech application for Lufthansa.',
         overlay: 2
-    },
+    }/* ,
     {
         id: 5,
         title: "InCapSolution",
@@ -60,7 +60,7 @@ const data = [
         src: '/img/project/project6/1.jpg',
         description: 'Task Management System for the Hotel industry. Ironhack project module 2.',
         overlay: 4
-    }
+    } */
 ]
 
 export const getPortfolioData = () => data;

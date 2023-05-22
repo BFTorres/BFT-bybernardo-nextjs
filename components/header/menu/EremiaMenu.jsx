@@ -8,17 +8,17 @@ const menuContent = [
     {
         name: "Home",
         dropdownMenu: [
-            {name: "Main Demo", href: "/"},
-            {name: "One Page 2", href: "/demo-2"},
+            {name: "Main", href: "/"}
+            /* {name: "One Page 2", href: "/demo-2"},
             {name: "One Page 3", href: "/demo-3"},
             {name: "Corporate", href: "/corporate"},
             {name: "Corporate 2", href: "/corporate-2"},
             {name: "Personal", href: "/personal"},
-            {name: "Personal 2", href: "/personal-2"},
+            {name: "Personal 2", href: "/personal-2"}, */
         ]
     },
     {
-        name: "Portfolio",
+        name: "Portfolio", href: "/slider-full-distortion-h"/* ,
         dropdownMenu: [
             {
                 name: "Sliders",
@@ -75,31 +75,29 @@ const menuContent = [
                 ]
             },
 
-        ]
+        ] */
     },
-    {
+
+
+    /* {
         name: "Works",
         dropdownMenu: [
-            {
-                name: "Works 01 - 03",
-                dropdownMenu: [
-                    {name: "Huggl Power Pack", href: "/portfolio/huggl-power-pack"},
-                    {name: "Lengshuikeng", href: '/portfolio/lengshuikeng'},
-                    {name: "Maybe Speaker", href: '/portfolio/maybe-speaker'}
-                ]
-            }, {
-                name: "Works 03 - 06",
-                dropdownMenu: [
+                
+                    {name: "BMW Group", href: '/portfolio/bmw-group'},
+                    {name: "Mercedes Benz", href: "/portfolio/mercedes-benz"},
+                    {name: "Kronos", href: '/portfolio/kronos'},
                     {name: "Principal Garden", href: "/portfolio/principal-garden"},
                     {name: "Small Silver Car", href: '/portfolio/small-silver-car'},
                     {name: "Yaren Collection", href: '/portfolio/yaren-collection'},
 
-                ]
-            },
         ]
-    },
-    {name: "Service", href: "/service"},
-    {
+    }, */
+    
+    
+    
+    /* 
+    {name: "Service", href: "/service"}, */
+    /* {
         name: "Stories",
         dropdownMenu: [
             {
@@ -125,9 +123,11 @@ const menuContent = [
             }, {name: "Single Post", href: "/single-blog"}
 
         ]
-    },
+    }, */
     {name: "About", href: "/about"},
     {name: "Contact", href: "/contact"},
+    {name: "Imprint", href: "/imprint"}
+
 ];
 
 const EremiaMenu = ({hamburger}) => {
@@ -148,7 +148,7 @@ const EremiaMenu = ({hamburger}) => {
     return (
         <Navbar hamburger={hamburger}>
             <Navbar.Brand href={"/"} transitionPage={{title: "bybernardo"}}>
-                <Logo width="75px" height="auto"/>
+                <Logo width="60px" height="auto"/>
             </Navbar.Brand>
 
             <Navbar.Collapse cover="Menu">

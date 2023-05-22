@@ -412,7 +412,7 @@ module.exports = import("@fortawesome/free-brands-svg-icons");;
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [9210,9403,1664,3121,5675,4597,1566,3233,6401,2536,4425,6964,4557,7705,3880,1610], () => (__webpack_exec__(1955)));
+var __webpack_exports__ = __webpack_require__.X(0, [9210,9403,1664,3121,5675,4597,1566,3233,6401,2536,4425,6964,4557,7705,1610,3880], () => (__webpack_exec__(1955)));
 module.exports = __webpack_exports__;
 
 })();

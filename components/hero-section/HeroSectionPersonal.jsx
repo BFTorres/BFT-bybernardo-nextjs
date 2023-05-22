@@ -6,14 +6,11 @@ import Button from "../button/Button";
 
 
 const heroData = {
-    title: `Why hire me for your next project`,
-    descTitle: `About Me`,
-    subtitle: `Proin laoreet elementum ligula`,
-    description: `Proin volutpat mauris ac pellentesque pharetra. Suspendisse
-                    congue elit vel odio suscipit, sit amet tempor nisl imperdiet. Quisque ex
-                    justo`,
-    heroImage: '/img/about-me.jpg',
-    infoPersonal: [
+    title: `Bernardo Fonseca Torres`,
+    subtitle: `Digital Craftsman`,
+    /* description: `Digital Craftsman`, */
+    heroImage: '/img/about-me-sketch.png',
+    /* infoPersonal: [
         {key: "Age", value: "29"},
         {key: "Residence", value: "Egypt"},
         {key: "Address", value: "27 Some Street, Some Town"},
@@ -22,10 +19,10 @@ const heroData = {
             value: "info@dsngrid.com",
             link: {href: "mailto:info@dsngrid.com", target: "_blank", rel: "nofollow"}
         },
-    ],
+    ], */
 
     firstLink: {text: "DOWNLOAD CV", option: {href: "#0", target: "_blank", rel: "nofollow"}},
-    lastLink: {text: "LEARN MORE", option: {href: "/services"}},
+    lastLink: {text: "LEARN MORE", option: {href: "/PortfolioSwiper"}},
 };
 
 
@@ -45,9 +42,9 @@ function HeroSection({className, ...restProps}) {
                 <TitleSection className="mb-30" description={heroData.descTitle}
                               defaultSpace={false}>{heroData.title}</TitleSection>
                 <h5 className="sm-title-block theme-color">{heroData.subtitle}</h5>
-                <div className="border-bottom mt-20 mb-20"/>
-                <p className="max-w570">{heroData.description}</p>
-                <DsnGrid as="ul" className="mt-20 pt-20 pb-20 border-bottom border-top" col={2}>
+                {/* <div className="border-bottom mt-20 mb-20"/> */}
+                {/* <p className="max-w570">{heroData.description}</p> */}
+                {/* <DsnGrid as="ul" className="mt-20 pt-20 pb-20 border-bottom border-top" col={2}>
                     {
                         heroData.infoPersonal && heroData.infoPersonal.map(
                             (item, index) =>
@@ -58,7 +55,7 @@ function HeroSection({className, ...restProps}) {
                         )
                     }
 
-                </DsnGrid>
+                </DsnGrid> */}
 
                 <div className="d-flex align-items-center mt-30">
                     {heroData.firstLink && <Button {...heroData.firstLink.option} className="mr-15 line-head"

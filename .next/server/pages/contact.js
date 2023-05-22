@@ -29,11 +29,8 @@ function _interopRequireDefault(obj) {
 /***/ }),
 
 /***/ 6242:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
 
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
@@ -275,7 +272,7 @@ Map.defaultProps = {
     zoom: 14,
     mapIcon: "img/map-marker.png"
 };
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Map);
+/* unused harmony default export */ var __WEBPACK_DEFAULT_EXPORT__ = ((/* unused pure expression or super */ null && (Map)));
 
 
 /***/ }),
@@ -368,9 +365,9 @@ function HeaderNormal({ className , tag: Tag = "header" , container ="dsn-contai
 
 
 const NextContent = {
-    title: "Would you like more information or do you have a question?",
-    subtitle: `Don't be weird.`,
-    buttonText: "Owr Work"
+    title: "Let's work together",
+    /* 
+    subtitle: `Don't be weird.`, */ buttonText: "Work"
 };
 function NextPage2({ className , ...restProps }) {
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
@@ -410,7 +407,7 @@ function NextPage2({ className , ...restProps }) {
                                 borderStyle: "border-color-heading-color",
                                 borderRadius: true,
                                 transitionPage: {
-                                    title: "Our Portfolio"
+                                    title: "Portfolio"
                                 },
                                 children: NextContent.buttonText
                             })
@@ -482,7 +479,7 @@ function About() {
                         className: "subtitle p-relative line-shape  mb-20",
                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                             className: "pl-10 pr-10 background-section",
-                            children: "DESIGN STUDIO"
+                            children: "bybernardo"
                         })
                     }),
                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h1", {
@@ -495,30 +492,16 @@ function About() {
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                         className: "dsn-heading-title mt-15 max-w570",
-                        children: "What if the time has come for you to change? Starting a collaboration is easy! Order a free consultation or call back. We are always in touch and happy to cooperate with you"
+                        children: "In an ever-changing and uncertain world, your design and online presence become  extensions of yourself. Reach out to me, and let's ensure your success together."
                     })
                 ]
             }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_Map_Map__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z, {
-                mapKey: "AIzaSyDMyAS2jdzj-vdgBIFaIStYOWJtSlghndg",
-                zoom: 10,
-                height: "80vh",
-                defaultCenter: {
-                    lat: 30.0489206,
-                    lng: 31.258553
-                }
-            }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                 className: "section-margin container",
-                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_layout_DsnGrid__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .Z, {
+                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_layout_DsnGrid__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .Z, {
                     col: 2,
                     colTablet: 1,
-                    children: [
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_contact_ContactForm__WEBPACK_IMPORTED_MODULE_8__/* ["default"] */ .Z, {}),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_contact_InfoBox__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .Z, {
-                            className: "align-self-center"
-                        })
-                    ]
+                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_contact_InfoBox__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .Z, {})
                 })
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_next_NextPage2__WEBPACK_IMPORTED_MODULE_9__/* ["default"] */ .Z, {
@@ -705,7 +688,7 @@ module.exports = import("@fortawesome/free-solid-svg-icons");;
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [9403,1664,4597,1566,3042,1688,4396,2407], () => (__webpack_exec__(1406)));
+var __webpack_exports__ = __webpack_require__.X(0, [9403,1664,4597,1566,1688,3042,4396,2407], () => (__webpack_exec__(1406)));
 module.exports = __webpack_exports__;
 
 })();

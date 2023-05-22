@@ -47,7 +47,7 @@ function ContactForm({className}) {
                     I&apos;m right there. In the middle.
                 </p> */}
 
-                <form  className="form"  ref={form} onSubmit={sendEmail} >
+                <form  className="form mt-20"  ref={form} onSubmit={sendEmail} >
                     <div className="input__wrap controls">
                         <div className="form-group">
                             <div className="entry-box">

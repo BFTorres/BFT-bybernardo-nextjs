@@ -3,9 +3,9 @@ import Button from "../button/Button";
 import BgDot from "../header/BgDot";
 
 const NextContent = {
-    title: "Would you like more information or do you have a question?",
-    subtitle: `Don't be weird.`,
-    buttonText: "Owr Work"
+    title: "Let's work together",/* 
+    subtitle: `Don't be weird.`, */
+    buttonText: "Work"
 };
 
 function NextPage2({className, ...restProps}) {
@@ -32,7 +32,7 @@ function NextPage2({className, ...restProps}) {
                             className="mr-15 line-head"
                             borderStyle={"border-color-heading-color"}
                             borderRadius
-                            transitionPage={{title: "Our Portfolio"}}
+                            transitionPage={{title: "Portfolio"}}
                         >
                             {NextContent.buttonText}
                         </Button>

@@ -8,7 +8,7 @@ function ModalContact({className = "", ...restProps}) {
     return (
         <div className={dsnCN("section-padding", className)} {...restProps}>
             <DsnGrid col={2} colTablet={1}>
-                <ContactForm/>
+                {/* <ContactForm/> */}
                 <InfoBox className="align-self-center"/>
             </DsnGrid>
         </div>

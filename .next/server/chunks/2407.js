@@ -20,20 +20,7 @@ function Copyright({ className , ...restProps }) {
         ...restProps,
         children: [
             new Date().getFullYear(),
-            " \xa9 Made with ",
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                className: "love",
-                children: "♥"
-            }),
-            "by",
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                className: "link-hover",
-                "data-hover-text": "Design Grid.",
-                target: "_blank",
-                rel: "nofollow",
-                href: "https://themeforest.net/user/design_grid/portfolio/",
-                children: "Design Grid."
-            })
+            " \xa9 bybernardo"
         ]
     });
 }
@@ -317,20 +304,16 @@ __webpack_async_result__();
 
 const socialContent = [
     {
-        name: "Dribbble.",
-        href: "#0"
+        href: "https://www.linkedin.com/in/bernardo-fonseca-torres/",
+        name: "LinkedIn"
     },
     {
-        name: "Behance.",
-        href: "#0"
+        href: "https://www.xing.com/profile/Bernardo_FonsecaTorres",
+        name: "XING"
     },
     {
-        name: "Linkedin.",
-        href: "#0"
-    },
-    {
-        name: "Twitter.",
-        href: "#0"
+        href: "https://medium.com/@bernardofonsecatorres",
+        name: "Medium"
     }
 ];
 function Social({ className , ...restProps }) {

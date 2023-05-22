@@ -8,18 +8,18 @@ function InfoBox({className}) {
             <ul>
                 <li>
                     <h5 className="title-block mb-15">Contact</h5>
-                    <p className="text-p ">+1 (800) 990 8877</p>
+                    {/* <p className="text-p ">+1 (800) 990 8877</p> */}
                     <div className="over-hidden mt-5">
                         <a className="link-hover" data-hover-text="bftorres@protonmail.com"
                            href="mailto:bftorres@protonmail.com">bftorres@protonmail.com</a>
                     </div>
 
                 </li>
-                <li>
+                {/* <li>
                     <h5 className="title-block mb-15">Info</h5>
                     <p className="text-p">
                         Bernardo Fonseca Torres <br />Hannover, Germany</p>
-                </li>
+                </li> */}
                 <li>
                     <h5 className="title-block mb-15">Follow me</h5>
                     {/* <div className="social-item over-hidden">
