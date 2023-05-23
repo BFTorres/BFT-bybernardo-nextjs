@@ -1,15 +1,15 @@
 const data = [
     {
         id: 1,
-        title: "Extreme Athleticism Is the New Midlife Crisis",
-        slug: 'single-blog',
-        author: "Dsn Grid",
-        date: "March , 17th 2020",
-        category: ['Lifestyle'],
-        description: `Whoever said “It’s not about the destination. It’s the journey” never flew on a long ...`,
-        src: '/img/blog/1.jpg',
+        title: "The Three Mile Island Accident",
+        slug: 'blog-post-23052023',
+        author: "Bernardo Fonseca Torres",
+        date: "May , 23th 2023",
+        category: ['UX/UI Design'],
+        description: `In this article, we explore the events leading to the accident, shed light on the design shortcomings, and emphasize the significance of human-centered design to avert future disasters...`,
+        src: '/img/blog/4.jpg',
         overlay: 4
-    }, {
+    }, /* {
         id: 2,
         title: "The Day I Lost My Child in Charles de Gaulle Airport",
         slug: 'single-blog',
@@ -59,7 +59,7 @@ const data = [
         description: `Whoever said “It’s not about the destination. It’s the journey” never flew on a long ...`,
         src: '/img/blog/6.jpg',
         overlay: 4
-    }
+    } */
 
 ]
 

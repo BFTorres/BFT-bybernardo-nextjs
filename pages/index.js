@@ -22,6 +22,7 @@ import Team from "../components/Team/Team";
 import BrandClient from "../components/brand-client/BrandClient";
 import HeaderFull from "../components/header/HeaderFull";
 import CookieBanner from "../components/cookie-banner/CookieBanner";
+import Blog from "../components/bolg/Blog";
 
 import NextPage from "../components/next/NextPage";
 import Footer from "../components/footer/Footer";
@@ -89,9 +90,9 @@ function Home() {
             {/*Start Portfolio*/}
             <div className="section-margin" data-dsn-title="Portfolio">
                 <TitleSection
-                    className={`container align-items-center text-center`}
+                    className={`container`}
                 >
-                    Creative Portfolio <br/>
+                    CREATIVE PORTFOLIO
                 </TitleSection>
                 <PortfolioSwiper
                     grabCursor
@@ -238,13 +239,12 @@ function Home() {
             {/*End box vertical Section*/}
 
             {/*Start Blog*/}
-            {/* <div className="section-margin" data-dsn-title="Lasts post">
+            <div className="section-margin" data-dsn-title="Blog">
                 <TitleSection
-                    className={`container  align-items-center text-center`}
-                    description={"Lasts post"}
+                    className={`container`}
+                   
                 >
-                    Latest And Greatest <br/>
-                    Post
+                    DISCOVER STORIES, THINKING, AND EXPERTISE.
                 </TitleSection>
                 <BlogSwiper
                     className="dsn-container"
@@ -266,6 +266,15 @@ function Home() {
                         className={`justify-content-between dsn-container mt-30`}
                     />
                 </BlogSwiper>
+            </div>
+
+            {/* <div className="section-margin" data-dsn-title="Blog">
+                <TitleSection
+                className={`container  align-items-center text-center`}
+                >
+                    Blog
+                </TitleSection>
+                <Blog></Blog>
             </div> */}
             
             {/*End Blog*/}
@@ -289,7 +298,7 @@ function Home() {
                     className={`align-items`}
                     description={""}
                 >
-                    I&apos;ve worked on projects for
+                    I&apos;VE WORKED ON PROJECTS FOR
                 </TitleSection>
 
                 <BrandClient col={3} colTablet={3} colMobile={2} colGap={0} rowGap={0}/>

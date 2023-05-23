@@ -6,7 +6,7 @@ import Logo from "../../logo/Logo";
 
 const menuContent = [
     {
-        name: "Home",
+        name: "HOME",
         dropdownMenu: [
             {name: "Main", href: "/"}
             /* {name: "One Page 2", href: "/demo-2"},
@@ -18,7 +18,7 @@ const menuContent = [
         ]
     },
     {
-        name: "Portfolio", href: "/slider-full-distortion-h"/* ,
+        name: "PORTFOLIO", href: "/slider-full-distortion-h"/* ,
         dropdownMenu: [
             {
                 name: "Sliders",
@@ -77,7 +77,7 @@ const menuContent = [
 
         ] */
     },
-
+    {name: "BLOG", href: "/blog-card"},
 
     /* {
         name: "Works",
@@ -124,9 +124,9 @@ const menuContent = [
 
         ]
     }, */
-    {name: "About", href: "/about"},
-    {name: "Contact", href: "/contact"},
-    {name: "Imprint", href: "/imprint"}
+    {name: "ABOUT", href: "/about"},
+    {name: "CONTACT", href: "/contact"},
+    {name: "IMPRINT", href: "/imprint"}
 
 ];
 
