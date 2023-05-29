@@ -1,13 +1,4 @@
-/*-----------------------------------------------------------
 
-  Template Name: Droow - Ajax Portfolio Showcase HTML Template
-  Template URI: http://theme.dsngrid.com/droow
-  Description: Droow Ajax Portfolio Showcase HTML Template
-  Author: design_grid
-  Author URI: https://themeforest.net/user/design_grid
-  Version: 1.0.0
-
--------------------------------------------------------------*/
 /*-----------------------------------------------------------
 
     1.  Variables
@@ -45,6 +36,7 @@
 @import "variables-site/_variables-site.scss";
 @import "global/_normalize.scss";
 @import "typography/_typography.scss";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 
 :root, :root .v-light {
   --bg-color: #f9f9f9;
@@ -89,12 +81,13 @@
 
 :root {
   --body-font: 'Roboto', sans-serif;
-  --heading-font: 'Poppins', sans-serif;
+  --heading-font: 'Open Sans', 'Poppins', sans-serif;
   --font-code: Menlo, monaco, Consolas, Lucida Console, monospace;
   --font-pre: "Courier 10 Pitch", Courier, monospace;
 
   --font-size-base: 16px;
-  --font-size-h1: 40px;
+ /*  --font-size-h1: 40px; */
+  --font-size-h1: 70px;
   --font-size-h2: 35px;
   --font-size-h3: 30px;
   --font-size-h4: 25px;
@@ -103,7 +96,7 @@
   --menu-size: 12px;
   --line-height-base: 1.4;
   --line-height-content: 1.6;
-  --font-weight-heading: 600;
+  --font-weight-heading: 700;
 
   //--> structure
   --margin-padding: 120px;

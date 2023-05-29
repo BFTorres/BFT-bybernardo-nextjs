@@ -2,6 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/blog-card": "pages/blog-card.js",
+  "/contact": "pages/contact.js",
+  "/imprint": "pages/imprint.js",
   "/": "pages/index.js"
 }

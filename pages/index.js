@@ -239,7 +239,7 @@ function Home() {
             {/*End box vertical Section*/}
 
             {/*Start Blog*/}
-            <div className="section-margin" data-dsn-title="Blog">
+            <div className="section-margin" data-dsn-title="Articles">
                 <TitleSection
                     className={`container`}
                    

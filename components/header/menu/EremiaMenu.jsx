@@ -6,16 +6,16 @@ import Logo from "../../logo/Logo";
 
 const menuContent = [
     {
-        name: "HOME",
-        dropdownMenu: [
-            {name: "Main", href: "/"}
+        name: "HOME", href: "/"
+       /*  dropdownMenu: [
+            {name: "Main", href: "/"} */
             /* {name: "One Page 2", href: "/demo-2"},
             {name: "One Page 3", href: "/demo-3"},
             {name: "Corporate", href: "/corporate"},
             {name: "Corporate 2", href: "/corporate-2"},
             {name: "Personal", href: "/personal"},
-            {name: "Personal 2", href: "/personal-2"}, */
-        ]
+            {name: "Personal 2", href: "/personal-2"}, 
+        ]*/
     },
     {
         name: "PORTFOLIO", href: "/slider-full-distortion-h"/* ,
@@ -77,7 +77,7 @@ const menuContent = [
 
         ] */
     },
-    {name: "BLOG", href: "/blog-card"},
+    {name: "ARTICLES", href: "/blog-card"},
 
     /* {
         name: "Works",

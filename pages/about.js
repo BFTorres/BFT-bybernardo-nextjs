@@ -169,7 +169,7 @@ function About() {
             {/*========== Start brand-client Section ==========*/}
             <section className="container section-margin" data-dsn-title="Client">
                 <TitleSection>
-                    I&apos;ve worked on projects for
+                    I&apos;VE WORKED ON PROJECTS FOR
                 </TitleSection>
 
                 <BrandClient col={3} colTablet={3} colGap={0} rowGap={0}/>

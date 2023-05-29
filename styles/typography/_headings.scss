@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   color: $heading-color;
@@ -43,21 +45,21 @@ h6, .h6 {
   position: relative;
   color: $heading-color;
   font-family: $heading-font;
-  font-size: 55px;
+  /* font-size: 55px; */
   letter-spacing: 2px;
 
 
   @include media_768 {
-    font-size: 47px;
+    font-size: 60px;
   }
 
   @include media_575 {
-    font-size: 40px;
+    font-size: 50px;
     line-height: 1.2;
   }
 
   @include media_400 {
-    font-size: 35px;
+    font-size: 50px;
   }
 }
 
