@@ -70,7 +70,7 @@ function Home() {
                 className="container" 
                 heroContent={headerContent} 
                 skin={"half-personal"} 
-                overlay={6}
+                overlay={5}
                 data-dsn-title="start"
             >
                 <h5 className="pt-30">
@@ -244,7 +244,7 @@ function Home() {
                     className={`container`}
                    
                 >
-                    DISCOVER STORIES, THINKING, AND EXPERTISE.
+                    DISCOVER STORIES, THINKING, AND EXPERTISE
                 </TitleSection>
                 <BlogSwiper
                     className="dsn-container"

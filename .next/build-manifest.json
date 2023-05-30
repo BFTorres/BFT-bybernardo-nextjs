@@ -29,6 +29,16 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
+    ],
+    "/portfolio/bmw-group": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/portfolio/bmw-group.js"
+    ],
+    "/slider-full-distortion-h": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/slider-full-distortion-h.js"
     ]
   },
   "ampFirstPages": []
