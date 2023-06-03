@@ -24,7 +24,7 @@ const pluginConfig = {
 
   gui_options: {
     consent_modal: {
-        layout: 'cloud',                    // box,cloud,bar
+        layout: 'bar',                    // box,cloud,bar
         position: 'center',          // bottom,middle,top + left,right,center
         transition: 'slide'                 // zoom,slide
     },
@@ -53,9 +53,9 @@ const pluginConfig = {
   languages: {
     en: {
       consent_modal: {
-        title: 'We use cookies!',
+        title: 'bybernardo uses cookies to offfer you a better experience. ',
         description:
-          'Hello there, this website uses essential cookies to ensure its proper operation and tracking cookies to understand how you interact with it. The latter will be set only after consent. <button type="button" data-cc="c-settings" class="cc-link">Let me choose</button>',
+          'See <button type="button" data-cc="c-settings" class="cc-link">Cookie Notice</button> for details',
         primary_btn: {
           text: 'Accept all',
           role: 'accept_all', // 'accept_selected' or 'accept_all'

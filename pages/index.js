@@ -70,7 +70,8 @@ function Home() {
                 className="container" 
                 heroContent={headerContent} 
                 skin={"half-personal"} 
-                overlay={5}
+                overlay={5} // dark-mode
+                //overlay={0} //
                 data-dsn-title="start"
             >
                 <h5 className="pt-30">

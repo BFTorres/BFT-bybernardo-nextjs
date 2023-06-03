@@ -81,7 +81,7 @@ function HeaderFull({
 
     return (
         <header
-            className={dsnCN("header-page overflow", ((src || video) && !skin ) && 'v-dark-head', skin, skin && "v-dark-head-mobile" , fullWidth && "full-width") }
+            className={dsnCN("header-page overflow", ((src || video) && !skin ) && 'v-dark-head', skin,/*  skin && "v-dark-head-mobile" ,  */fullWidth && "full-width") }
             ref={header}>
             {/*@ts-ignore*/}
             {src && <BgImage src={src} height={height} alt={title?.replace(/<[^>]+>/g, '') ?? ""} overlay={overlay}
