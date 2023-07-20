@@ -37,17 +37,21 @@
 @import "global/_normalize.scss";
 @import "typography/_typography.scss";
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
 
 :root, :root .v-light {
   --bg-color: #f9f9f9;
-  --assistant-color: #e6e6e6;
-  --theme-color: #14bfb5;
+  /* --assistant-color: #e6e6e6; */
+  --assistant-color: #f9f9f9;
+  --theme-color: #F00659;
   --font-color: #0009;
-  --heading-color: #f0065a;
+  /* --heading-color: #f0065a; */
+  --heading-color: #333333;
   --border-color: #bebebe;
   --smooth-color: #141414;
   --reverse-color: #141414;
   --reverse-heading-color: #fff;
+  --bybernardo-font: #ffffff;
 }
 
 :root .v-dark, :root .v-dark-head {
@@ -60,6 +64,7 @@
   --smooth-color: #f9f9f9;
   --reverse-color: #f9f9f9;
   --reverse-heading-color: #000;
+  --bybernardo-font: #ffffff;
 }
 
 
@@ -74,6 +79,7 @@
     --smooth-color: #f9f9f9;
     --reverse-color: #f9f9f9;
     --reverse-heading-color: #000;
+    --bybernardo-font: #ffffff;
     color: var(--font-color);
   }
 }
@@ -96,10 +102,11 @@
   --menu-size: 12px;
   --line-height-base: 1.4;
   --line-height-content: 1.6;
-  --font-weight-heading: 700;
+  --font-weight-heading: 800;
 
   //--> structure
-  --margin-padding: 120px;
+  /* --margin-padding: 120px; */
+  --margin-padding: 240px;
   --margin-padding-mobile: 80px;
   --smooth-width: 4px;
 
@@ -120,7 +127,8 @@
 
 
   @include media_991(min) {
-    --margin-padding: 120px;
+    /* --margin-padding: 120px; */
+    --margin-padding: 240px;
     --box-padding: 80px 40px;
   }
   @include media_991() {
@@ -162,14 +170,29 @@
 }
 
 // brutalist components
+.bybernardo-red-font {
+  color: #F00659;
+}
+
+.bybernardo-red-bg {
+  background-color: #F00659;
+}
+
+a {
+  color: #F00659;
+}
+
+a:hover {
+  color: #bebebe;
+}
 
 .button-brutalist {
         background: transparent;
         line-height: 1.5;
         --line-height: 1.5rem;
         padding: 0.75rem 1rem;
-        border: solid 0.0625rem #f00659;
-        color: #f00659;
+        border: solid 0.0625rem #333333;
+        color: #333333;
         font-weight: bold;
         border-radius: 0.25rem;
         display: grid;
@@ -184,14 +207,16 @@
         cursor: pointer;
         text-decoration: none;
         flex-shrink: 0;
+        /* transition: all .14s ease-out; */
         transition: all .14s ease-out;
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
-        box-shadow: 0.35rem 0.35rem #f00659;
+        
+        
 }
 .button-brutalist:hover {
   background-color:transparent;
   transform: translate(-0.25rem,-0.25rem);
-  box-shadow: 0rem 0rem #f00659;
+  box-shadow: 0.35rem 0.35rem #333333;
 }

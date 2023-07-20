@@ -247,7 +247,7 @@ body, .main-root {
     top: 0;
     left: 0;
     pointer-events: none;
-    mix-blend-mode: exclusion;
+    /* mix-blend-mode: exclusion; */
 
 
     &:after, &:before {
@@ -255,7 +255,8 @@ body, .main-root {
       position: absolute;
       top: 0;
       height: 100%;
-      width: 1px;
+      /* width: 1px; */
+      width: 3px;
       background-color: $border-color;
       z-index: 100;
     }
@@ -344,6 +345,8 @@ body, .main-root {
       left: -.5px;
       background-color: #fff;
       z-index: -1;
+
+      border-radius: 0.25rem;
     }
 
 

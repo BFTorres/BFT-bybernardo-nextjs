@@ -44,7 +44,7 @@ function MyApp({Component, pageProps}) {
 
     const [creativeLine, setCreativeLine] = useState(true);
     //--> v-dark , v-light
-    const [colorPage, setColorPage] = useState("v-dark");
+    const [colorPage, setColorPage] = useState("v-light");
 
 
     useEffect(() => {

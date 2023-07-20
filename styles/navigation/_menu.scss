@@ -82,6 +82,13 @@
 
 }
 
+@include media_991(max) {
+
+    .site-header {
+      background: #fafafa;
+    }
+
+}
 
 .main-brand, .dsnload__img {
 

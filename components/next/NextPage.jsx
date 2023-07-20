@@ -13,8 +13,8 @@ function NextPage({className, ...restProps}) {
         <section className={dsnCN("next-page p-relative d-flex align-items-center", className)}
                  {...restProps}
         >
-            <BgDot/>
-            <BgDot rightPosition/>
+            {/* <BgDot/>
+            <BgDot rightPosition/> */}
             <div className="container w-100">
                 <div className="c-wrapper d-flex justify-content-between">
                     <div className="d-flex flex-column">
@@ -29,8 +29,8 @@ function NextPage({className, ...restProps}) {
                     <div className="button-box d-flex justify-content-end align-items-center">
                         <Button
                             href={"/contact"}
-                            className="mr-15 line-head"
-                            borderStyle={"border-color-heading-color"}
+                            className="button-brutalist mr-15 "
+                            borderStyle={false}
                             borderRadius
                             transitionPage={{title: NextContent.buttonText}}
                         >

@@ -7,7 +7,8 @@
   letter-spacing: 3px;
   text-transform: uppercase;
 
-  color: $heading-color;
+  /* color: $heading-color; */
+  color: $bybernardo-font;
 
   &:hover .text-button {
     animation: storm 0.7s ease-in-out both;

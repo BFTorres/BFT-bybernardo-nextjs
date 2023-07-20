@@ -23,6 +23,7 @@ import BrandClient from "../components/brand-client/BrandClient";
 import HeaderFull from "../components/header/HeaderFull";
 import CookieBanner from "../components/cookie-banner/CookieBanner";
 import Blog from "../components/bolg/Blog";
+import HeaderNormnal from "../components/header/HeaderNormal"
 
 import NextPage from "../components/next/NextPage";
 import Footer from "../components/footer/Footer";
@@ -33,15 +34,21 @@ import OptionTheme from "../components/option-theme/OptionTheme";
 
 const headerContent = {
     title: `bybernardo`,
-    subtitle: `<span class="background-section pl-15 pr-15 pt-5 pb-5 d-inline-block">Bernardo Fonseca Torres</span>`,
-    src: "/img/about-me-sketch.png"
+    /* subtitle: `<span class="background-section pl-15 pr-15 pt-5 pb-5 d-inline-block">Bernardo Fonseca Torres</span>`, */
+    /* src: "/img/about-me-sketch.png" */
 };
+const headerData = {
+    title: `bybernardo`.toUpperCase(),
+    /* subtitle: `<span class="heading-color line-shape line-shape-before">We are a design & development agency</span>`, */
+    /* src: "/img/header.jpg" */
+}
 
 function Home() {
-    TitleSection.defaultProps = {
+    /* TitleSection.defaultProps = {
         classDesc: "line-shape line-shape-before",
         classDesInner: "line-bg-right",
-    };
+    }; */
+    
 
 
     return (
@@ -66,7 +73,7 @@ function Home() {
                 <HeroSection className="container" />
             </div> */}
             
-            <HeaderFull 
+            {/* <HeaderFull 
                 className="container" 
                 heroContent={headerContent} 
                 skin={"half-personal"} 
@@ -85,6 +92,17 @@ function Home() {
                         borderRadius>
                     Work
                 </Button>
+            </HeaderFull> */}
+            <HeaderFull className="dsn-container" heroContent={headerData} overlay={5} fullWidth >
+                <h4 className="mt-20">
+                    <span className="bybernardo-red-font">Digital Craftsman</span> based in Hannover, Germany. <br />Currently Frontend <span className="bybernardo-red-font">Developer</span> and UX/UI <span className="bybernardo-red-font">Designer</span> @Lohoff.
+                </h4>
+                <Button href={"/about"} className="button-brutalist mt-20 mr-20" borderStyle={false} borderRadius>
+                    About Me
+                </Button>
+                <Button href={"/slider-full-distortion-h"} className="button-brutalist mt-20" borderStyle={false} borderRadius>
+                    Work
+                </Button>
             </HeaderFull>
             
 
@@ -101,12 +119,12 @@ function Home() {
                     tablet={{spaceBetween: 0, slidesPerView: 1.3}}
                     mobile={{slidesPerView: 1}}
                     stylePortfolio="work-section"
-                    className="text-left v-dark-head title-inherit h4"
+                    className="text-left  title-inherit h4"
                     centeredSlides
                     loop
                     blur
                     parallax
-                    speed={1200}
+                    speed={1200} 
                     watchSlidesProgress
                     loopedSlides={2}
                     parallaxImage={{"data-swiper-parallax-scale": "0.85"}}
@@ -299,10 +317,34 @@ function Home() {
                     className={`align-items`}
                     description={""}
                 >
-                    I&apos;VE WORKED ON PROJECTS FOR
+                    I&apos;VE WORKED ON PROJECTS FOR <a 
+                        href="https://www.bmwgroup.com/en.html"
+                        target="_blank"
+                        >
+                             BMW GROUP
+                        </a>, 
+                        <a
+                        href="https://www.thyssenkrupp.com/"
+                        target="_blank"
+                        >
+                            THYSSENKRUPP
+                        </a>, 
+                        <a
+                        href="https://www.mercedes-benz.com/en/"
+                        target="_blank"
+                        >
+                            MERCEDES BENZ
+                        </a>
+                        , AND <a
+                        href="https://www.lufthansa.com/de/en/homepage"
+                        target="_blank"
+                        >
+                             LUFTHANSA
+                        </a>
+                    
                 </TitleSection>
 
-                <BrandClient col={3} colTablet={3} colMobile={2} colGap={0} rowGap={0}/>
+                {/* <BrandClient col={3} colTablet={3} colMobile={2} colGap={0} rowGap={0}/> */}
             </section>
             {/*========== End brand-client Section ==========*/}
 

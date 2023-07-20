@@ -77,7 +77,7 @@ const menuContent = [
 
         ] */
     },
-    {name: "ARTICLES", href: "/blog-card"},
+    {name: "ARTICLES", href: "/blog-list"},
 
     /* {
         name: "Works",

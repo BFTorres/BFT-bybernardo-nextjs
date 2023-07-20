@@ -271,7 +271,7 @@ ul {
 @include body-line {
   .main-navigation {
 
-    &:after , &:before{
+    /* &:after , &:before{
       content: '';
       position: absolute;
       height: 100%;
@@ -284,7 +284,7 @@ ul {
     }
     &:after{
       right: var(--dsn-gap-container);
-    }
+    } */
      ul.primary-nav ,  ul.primary-nav ul {
       padding-left: 50px;
     }
