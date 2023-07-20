@@ -33,7 +33,7 @@ function Home() {
             <HeaderNormal container={"container"}>
                 <MetaPost category={['UX/UI Design']}/>
                 <h1 className="title text-uppercase">
-                    The Three Mile Island Accident: A Lesson on Design Failures and the Importance of Human-Centered Approach
+                    The Three Mile Island Accident
                 </h1>
             </HeaderNormal>
             {/*========== End Header Normal ==========*/}

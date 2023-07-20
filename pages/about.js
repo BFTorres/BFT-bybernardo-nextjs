@@ -13,7 +13,7 @@ import BoxGallery, {
 import Team from "../components/Team/Team";
 import Testimonial from "../components/testimonial/Testimonial";
 import SwiperPagination from "../components/swiper-pagination/SwiperPagination";
-import NextPage from "../components/next/NextPage";
+import NextPage2 from "../components/next/NextPage2";
 import BrandClient from "../components/brand-client/BrandClient";
 import Awards from "../components/awards/Awards";
 import {getTeamData} from "../data/team";
@@ -23,6 +23,7 @@ import Image from "next/image";
 import ModalContact from "../components/model-right/ModalContact";
 import Head from "next/head";
 import Footer from "../components/footer/Footer"
+import MetaPost from "../components/meta/MetaPost";
 
 function About() {
     TitleSection.defaultProps = {
@@ -44,7 +45,7 @@ function About() {
                 <h1 className="title text-uppercase">
                     Bernardo Fonseca Torres
                 </h1>
-                <h3 className="text-uppercase">
+                <h3 className="text-uppercase bybernardo-red-font">
                     Digital Craftsman
                 </h3>
             </HeaderNormal>
@@ -59,9 +60,12 @@ function About() {
             {/*<!-- ========== About Section ========== */}
             <div className="container section-margin" data-dsn-title="About">
 
-                <TitleSection className="mb-15" description={"Developer & Designer"} defaultSpace={false}/>
+                <TitleSection className="mb-15"  defaultSpace={false}/>
+                {/* description={"Developer & Designer"} */}
                 <DsnGrid col={2} colTablet={1}>
+                    
                     <div className="box-left">
+                        <MetaPost category={['Developer & Designer']}/>
                         <h4>My inspiration relies on the freedom of endless possibilities, and my passion for designing and developing products with a touch of simplicity and originality.</h4>
                     </div>
                     <div className="box-right">
@@ -169,15 +173,38 @@ function About() {
             {/*========== Start brand-client Section ==========*/}
             <section className="container section-margin" data-dsn-title="Client">
                 <TitleSection>
-                    I&apos;VE WORKED ON PROJECTS FOR
+                I&apos;VE WORKED ON PROJECTS FOR <a 
+                        href="https://www.bmwgroup.com/en.html"
+                        target="_blank"
+                        >
+                             BMW GROUP
+                        </a>, 
+                        <a
+                        href="https://www.thyssenkrupp.com/"
+                        target="_blank"
+                        >
+                            THYSSENKRUPP
+                        </a>, 
+                        <a
+                        href="https://www.mercedes-benz.com/en/"
+                        target="_blank"
+                        >
+                            MERCEDES BENZ
+                        </a>
+                        , AND <a
+                        href="https://www.lufthansa.com/de/en/homepage"
+                        target="_blank"
+                        >
+                             LUFTHANSA
+                        </a>
                 </TitleSection>
 
-                <BrandClient col={3} colTablet={3} colGap={0} rowGap={0}/>
+                {/* <BrandClient col={3} colTablet={3} colGap={0} rowGap={0}/> */}
             </section>
             {/*========== End brand-client Section ==========*/}
 
             {/*========== Start Next Page Section ==========*/}
-            <NextPage className={`background-section section-padding`}/>
+            <NextPage2 className={`background-section section-padding`}/>
             {/*========== End Next Page Section ==========*/}
             {/*========== Footer ==========*/}
             <Footer className="background-section"/>

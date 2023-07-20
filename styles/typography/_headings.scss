@@ -143,20 +143,25 @@ h6, .h6 {
 
     &:not([data-separate]){
       padding: 6px 15px;
-      border-right: 1px solid $border-color;
-      border-left: 1px solid $border-color;
+      /* border-right: 1px solid $border-color;
+      border-left: 1px solid $border-color; */
+
+      border-radius: 0.25rem;
+      border: 1px solid #ffffff;
+      background: #bebebe;
+
       &:not(:last-child){
         margin-right: 15px;
       }
 
-      &::before, &:after {
+      /* &::before, &:after {
         content: '';
         position: absolute;
         left: -5px;
         right: -5px;
         height: 1px;
         background-color: $border-color;
-      }
+      } */
 
       &::before {
         top: 0;

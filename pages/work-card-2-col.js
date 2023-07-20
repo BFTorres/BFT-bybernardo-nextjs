@@ -14,16 +14,16 @@ function Work() {
     return (
         <Layout modelRight={{children: <ModalContact/>, propsModal: {textBtn: "Contact"}}}>
             <Head>
-                <title>Portfolio  | Eremia Creative Portfolio Multi-Purpose</title>
+                <title>Portfolio  | Bernardo Fonseca Torres</title>
             </Head>
 
         {/*========== Header Normal ========== */}
             <HeaderNormal backgroundColor="background-section" className="text-center">
                 <p className="subtitle p-relative line-shape  dsn-load-animate">
-                    <span className="pl-10 pr-10 background-main">SOME OF OUR LATEST</span>
+                    <span className="pl-10 pr-10 background-main">SOME OF MY MAIN PROJECTS</span>
                 </p>
                 <h1 className="title text-uppercase">
-                    OUR BEST WORKS
+                    PORTFOLIO
                 </h1>
             </HeaderNormal>
             {/*========== End Header Normal ==========*/}
