@@ -58,12 +58,10 @@ function Project2(params) {
                         <ButtonProject href="#0" className="mt-30">
                             VIST PROJECT
                         </ButtonProject> */}
-                        <Button href={"https://www.value-account.eu/acapif/portal-thyssenkrupp/public_loginseite.prt"} className="mt-30" borderStyle={"border-color-theme-color"}
-                        borderRadius>
+                        <Button href={"https://www.value-account.eu/acapif/portal-thyssenkrupp/public_loginseite.prt"} className="mt-30 mr-30 button-brutalist" borderStyle={false} borderRadiuss>
                             Thyssenkrupp
                         </Button>
-                        <Button href={"https://www.value-account.eu/acapif/portal-tke/public_loginseite.prt"} className="mt-30" borderStyle={"border-color-theme-color"}
-                        borderRadius>
+                        <Button href={"https://www.value-account.eu/acapif/portal-tke/public_loginseite.prt"} className="mt-30 button-brutalist" borderStyle={false} borderRadius>
                             TKE
                         </Button>
                     </div>
@@ -94,7 +92,7 @@ function Project2(params) {
                             <p>
                                 Thyssenkrupp is an international group of companies comprising largely independent industrial and technology businesses and employing around 96,000 people. Across 48 countries it generated sales of €41 billion in fiscal 2021/2022. Its business activities have been bundled in six segments: Materials Services, Industrial Components, Automotive Technology, Steel Europe, Marine Systems, and Multi Tracks. Backed by extensive technological know-how, the businesses develop cost-effective and resource-friendly solutions to the challenges of the future. Around 3,600 employees work in research and development at 75 locations all over the world, mainly in the fields of climate protection, the energy transition, digital transformation in the industry and mobility of the future.
                             </p>
-                            <Button href="https://www.thyssenkrupp.com/en/home" className="mt-30">
+                            <Button href="https://www.thyssenkrupp.com/en/home" className="mt-30 button-brutalist" borderStyle={false} borderRadius>
                                 View More <span className="icon">⟶</span>
                             </Button>
                         </div>

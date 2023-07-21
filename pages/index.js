@@ -349,7 +349,7 @@ function Home() {
             {/*========== End brand-client Section ==========*/}
 
             {/*========== Next Page ==========*/}
-            <NextPage className="section-padding border-top background-section" data-dsn-title="contact"/>
+            <NextPage className="section-padding background-section" data-dsn-title="contact"/> {/* border-top */}
             {/*========== End Next Page ==========*/}
 
             {/*========== Footer ==========*/}

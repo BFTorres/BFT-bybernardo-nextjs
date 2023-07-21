@@ -57,12 +57,10 @@ function Project4() {
                         <ButtonProject href="#0" className="mt-30">
                             VIST PROJECT
                         </ButtonProject> */}
-                        <Button href={"https://www.value-account.eu/acapif/portal-lufthansa/public_loginseite.prt#"} className="mt-30" borderStyle={"border-color-theme-color"}
-                        borderRadius>
+                        <Button href={"https://www.value-account.eu/acapif/portal-lufthansa/public_loginseite.prt#"} className="mt-30 mr-30 button-brutalist" borderStyle={false} borderRadius>
                             Lufthansa
                         </Button>
-                        <Button href={"https://www.value-account.eu/acapif/portal-lufthansa-cityline/public_login.prt#"} className="mt-30" borderStyle={"border-color-theme-color"}
-                        borderRadius>
+                        <Button href={"https://www.value-account.eu/acapif/portal-lufthansa-cityline/public_login.prt#"} className="mt-30 button-brutalist" borderStyle={false} borderRadius>
                             CityLine
                         </Button>
                     </div>

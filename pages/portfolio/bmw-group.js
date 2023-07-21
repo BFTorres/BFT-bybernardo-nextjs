@@ -54,9 +54,12 @@ function Project1() {
                         <p className="intro-project-description">
                             Development and design of the user interface, aswell as establishing a top notch user experience and implementing the respective corporate identity into our award winning SaaS solution (Diamond Star - Digitale Innovation inder der bAV Award & HR Excellence Award 2016) for the BMW Group.
                         </p>
-                        <ButtonProject href="https://www.value-account.eu/acapif/portal-bmw/public_login.prt" className="mt-30">
+                        {/* <ButtonProject href="https://www.value-account.eu/acapif/portal-bmw/public_login.prt" className="mt-30">
                             VISIT PROJECT
-                        </ButtonProject>
+                        </ButtonProject> */}
+                        <Button href="https://www.value-account.eu/acapif/portal-bmw/public_login.prt" className="mt-30 button-brutalist" borderStyle={false} borderRadius>
+                            VISIT PROJECT
+                        </Button>
                     </div>
                 </DsnGrid>
             </section>
@@ -122,7 +125,7 @@ function Project1() {
                             <p>
                                 With its brands BMW, MINI, Rolls-Royce and BMW Motorrad the BMW Group is the world&apos;s leading manufacturer of premium automobiles and motorcycles and provider of premium financial and mobility services. It has a workforce of approx. 125,000 employees worldwide.
                             </p>
-                            <Button href="https://www.bmwgroup.com/en.html" className="mt-30">
+                            <Button href="https://www.bmwgroup.com/en.html" className="mt-30 button-brutalist" borderStyle={false} borderRadius>
                                 View More <span className="icon">⟶</span>
                             </Button>
                         </div>

@@ -7,7 +7,7 @@ function ModalRight({className = "", children = null , textBtn ="" , ...restProp
                 <div className="contact-btn-txt">{textBtn}</div>
             </div>
             <div className="contact-modal background-section" {...restProps}>
-                <div className="contact-container h-100 w-100  border-right">
+                <div className="contact-container h-100 w-100  "> {/* border-right */}
                     <div className={dsnCN("box-contact-inner", className)}>
                         {children}
                     </div>

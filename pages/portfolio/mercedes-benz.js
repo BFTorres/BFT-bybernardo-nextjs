@@ -51,9 +51,9 @@ function Project3(params) {
                         <p className="intro-project-description">
                             Development and design of the user interface, aswell as establishing a top notch user experience and implementing the respective corporate identity into our award winning SaaS solution for Mercedes Benz.
                         </p>
-                        <ButtonProject href="https://www.value-account.eu/acapif/portal-x-mercedes/public_loginseite.prt#" className="mt-30">
+                        <Button href="https://www.value-account.eu/acapif/portal-x-mercedes/public_loginseite.prt#" className="mt-30 button-brutalist" borderStyle={false} borderRadius>
                             VISIT PROJECT
-                        </ButtonProject>
+                        </Button>
                     </div>
                 </DsnGrid>
             </section>
@@ -74,7 +74,7 @@ function Project3(params) {
           <p className="dsn-up mt-30 ml-auto mr-auto max-w570">
             The company founders, Gottlieb Daimler and Carl Benz, made history by inventing the automobile in 1886. As a pioneer of automotive engineering, Mercedes-Benz sees shaping the future of mobility in a safe and sustainable way as both a motivation and obligation. The company&apos;s focus therefore remains on innovative and green technologies as well as on safe and superior vehicles that both captivate and inspire.
           </p>
-          <Button href="https://group.mercedes-benz.com/en/" className="mt-30">
+          <Button href="https://group.mercedes-benz.com/en/" className="mt-30 button-brutalist" borderStyle={false} borderRadius>
             View More <span className="icon">⟶</span>
           </Button>
         </div>
