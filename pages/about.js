@@ -52,9 +52,9 @@ function About() {
             {/*========== End Header Normal ==========*/}
 
             {/*Start Parallax Img*/}
-            <ParallaxImage alt={""} src={"/img/IMG_3797.PNG"}
-                           parallaxFrom={{scale: 0.1}} parallax={{scale: 1}}
-                           overlay={5}/>
+            <ParallaxImage alt={""} src={"/img/adsv.png"}
+                           parallaxFrom={{scale: 0.3}} parallax={{scale: 1}}
+                           overlay={0}/>
             {/*End Parallax Img*/}
 
             {/*<!-- ========== About Section ========== */}

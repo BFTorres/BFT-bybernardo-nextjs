@@ -50,7 +50,7 @@ function ParallaxImage(
             return;
 
 
-        const img = {current : target.current.querySelector('.cover-bg-img')};
+        const img = {current : target.current.querySelector('.cover-bg-img-aboutMe')};
 
 
         if (triggerHook === 'bottom')
@@ -98,7 +98,7 @@ function ParallaxImage(
              ref={target}
              style={{'--height': height, '--height-table': heightTable, '--height-mobile': heightMobile} as CSSProperties}
         >
-            <Image className="cover-bg-img p-absolute" fill alt={""} {...restProps} />
+            <Image className="cover-bg-img-aboutMe p-absolute" fill alt={""} {...restProps} />
             {caption && <div className="cap"><span>{caption}</span></div>}
         </div>
     );

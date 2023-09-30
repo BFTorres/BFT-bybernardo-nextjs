@@ -95,6 +95,10 @@
       position: relative !important;
     }
 
+    > .cover-bg-img-aboutMe {
+      position: relative !important;
+    }
+
     @include media_991(){
       &:first-child{
         position: relative;
