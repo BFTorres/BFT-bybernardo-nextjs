@@ -2,6 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/portfolio/lufthansa": "pages/portfolio/lufthansa.js"
+  "/blog-post-23052023": "pages/blog-post-23052023.js",
+  "/": "pages/index.js"
 }

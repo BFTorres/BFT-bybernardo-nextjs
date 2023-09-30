@@ -31,6 +31,7 @@ import ModalContact from "../components/model-right/ModalContact";
 import Head from "next/head";
 import HeaderNormal from "../components/header/HeaderNormal";
 import OptionTheme from "../components/option-theme/OptionTheme";
+import PortfolioItem from "../components/portfolio/PortfolioItem";
 
 const headerContent = {
     title: `bybernardo`,
@@ -113,7 +114,7 @@ function Home() {
                 >
                     CREATIVE PORTFOLIO
                 </TitleSection>
-                <PortfolioSwiper
+                {/* <PortfolioSwiper
                     grabCursor
                     desktop={{spaceBetween: 50, slidesPerView: 1.5}}
                     tablet={{spaceBetween: 0, slidesPerView: 1.3}}
@@ -133,7 +134,21 @@ function Home() {
                     <SwiperPagination
                         className={`justify-content-between dsn-container mt-30`}
                     />
-                </PortfolioSwiper>
+                </PortfolioSwiper> */}
+                
+                <PortfolioSwiper grabCursor
+                                desktop={{spaceBetween: 0, slidesPerView: 3}}
+                                tablet={{spaceBetween: 0, slidesPerView: 2 , centeredSlides: false}}
+                                mobile={{spaceBetween: 0, slidesPerView: 1 , centeredSlides: false}}
+                                stylePortfolio="work-section work-no-scale"
+                                className="text-center v-dark-head"
+                                centeredSlides loop
+                                parallax
+                                speed={800}
+                                watchSlidesProgress
+                                loopedSlides={2}
+                                data-dsn-title="our Work"
+                />
             </div>
             {/*End Portfolio*/}
 
