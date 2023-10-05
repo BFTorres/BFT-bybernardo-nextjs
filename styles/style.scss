@@ -213,10 +213,16 @@ a:hover {
         white-space: nowrap;
         text-overflow: ellipsis;
         
+        transform: translate(-0.25rem,-0.25rem);
+        box-shadow: 0.35rem 0.35rem #333333;
         
 }
+
 .button-brutalist:hover {
-  background-color:transparent;
+  /* background-color:transparent;
   transform: translate(-0.25rem,-0.25rem);
-  box-shadow: 0.35rem 0.35rem #333333;
+  box-shadow: 0.35rem 0.35rem #333333; */
+  transform: translate( 0rem, 0rem);
+  box-shadow: none;
+  color: #F00659;
 }
