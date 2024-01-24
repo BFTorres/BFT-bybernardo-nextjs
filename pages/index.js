@@ -32,6 +32,7 @@ import Head from "next/head";
 import HeaderNormal from "../components/header/HeaderNormal";
 import OptionTheme from "../components/option-theme/OptionTheme";
 import PortfolioItem from "../components/portfolio/PortfolioItem";
+import Portfolio from "../components/portfolio/Portfolio";
 
 const headerContent = {
     title: `bybernardo`,
@@ -96,7 +97,7 @@ function Home() {
             </HeaderFull> */}
             <HeaderFull className="dsn-container" heroContent={headerData} overlay={5} fullWidth >
                 <h4 className="mt-20">
-                    <span className="bybernardo-red-font">Digital Craftsman</span> based in Hannover, Germany. <br />Currently Frontend <span className="bybernardo-red-font">Developer</span> and UX/UI <span className="bybernardo-red-font">Designer</span> @Lohoff.
+                    <span className="bybernardo-red-font">Digital Craftsman</span> based in Hannover, Germany. <br />Currently Frontend <span className="bybernardo-red-font">Developer</span> and Digital Product <span className="bybernardo-red-font">Designer</span> @Lohoff.
                 </h4>
                 <Button href={"/about"} className="button-brutalist mt-20 mr-20" borderStyle={false} borderRadius>
                     About Me
@@ -114,7 +115,7 @@ function Home() {
                 >
                     CREATIVE PORTFOLIO
                 </TitleSection>
-                {/* <PortfolioSwiper
+                <PortfolioSwiper
                     grabCursor
                     desktop={{spaceBetween: 50, slidesPerView: 1.5}}
                     tablet={{spaceBetween: 0, slidesPerView: 1.3}}
@@ -134,9 +135,9 @@ function Home() {
                     <SwiperPagination
                         className={`justify-content-between dsn-container mt-30`}
                     />
-                </PortfolioSwiper> */}
+                </PortfolioSwiper>
                 
-                <PortfolioSwiper grabCursor
+                {/* <PortfolioSwiper grabCursor
                                 desktop={{spaceBetween: 0, slidesPerView: 3}}
                                 tablet={{spaceBetween: 0, slidesPerView: 2 , centeredSlides: false}}
                                 mobile={{spaceBetween: 0, slidesPerView: 1 , centeredSlides: false}}
@@ -148,7 +149,7 @@ function Home() {
                                 watchSlidesProgress
                                 loopedSlides={2}
                                 data-dsn-title="our Work"
-                />
+                /> */}
             </div>
             {/*End Portfolio*/}
 

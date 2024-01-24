@@ -74,7 +74,7 @@ function About() {
                         </p>
 
                         <p className="max-w570 dsn-up">
-                            As a software developer and designer with experience in FinTech, I specialize in creating award-winning SaaS solutions that prioritize user experience and clean user interface design. Currently, I am overseeing the frontend and design for a diverse portfolio of clients @Lohoff, including BMW Group, Mercedes Benz, Thyssenkrupp, and Lufthansa. My expertise in implementing  corporate identities and agile methodologies into our user interfaces and workflows has allowed me to develop, redesign and modernize multiple prominent FinTech applications.
+                            As a software developer and product designer with experience in FinTech, I specialize in creating award-winning SaaS solutions that prioritize user experience and clean user interface design. Currently, I am overseeing the frontend and design for a diverse portfolio of clients @Lohoff, including BMW Group, Mercedes Benz, Thyssenkrupp, and Lufthansa. My expertise in implementing  corporate identities and agile methodologies into our user interfaces and workflows has allowed me to develop, redesign and modernize many prominent FinTech applications.
                         </p>
                     </div>
                 </DsnGrid>
@@ -84,7 +84,7 @@ function About() {
                     <List.item icon={<FontAwesomeIcon icon={faCheck} className="theme-color"/>}
                                className="align-items-center"> Frontend Development </List.item>
                     <List.item icon={<FontAwesomeIcon icon={faCheck} className="theme-color"/>}
-                               className="align-items-center"> UI/UX Design </List.item>
+                               className="align-items-center"> Product Design </List.item>
                 </List>
             </div>
             {/*<!-- ========== End About Section ========== */}
