@@ -5,6 +5,6 @@
 <line id="Line 9" x1="62.9998" y1="113.008" x2="62.9998" y2="9.00008" stroke="black" stroke-width="10"/>
 <line id="Line 10" x1="126" y1="9" y2="9" stroke="black" stroke-width="10"/>
 <line id="Line 11" x1="126" y1="28" x2="79" y2="28" stroke="black" stroke-width="10"/>
-<path id="." d="M125.898 100.2V113H113.098V100.2H125.898Z" fill="#DC143C"/>
+<path id="." d="M125.898 100.2V113H113.098V100.2H125.898Z" fill="#F00659"/>
 </g>
 </svg>
