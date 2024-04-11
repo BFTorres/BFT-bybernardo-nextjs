@@ -65,16 +65,31 @@ function About() {
                 <DsnGrid col={2} colTablet={1}>
                     
                     <div className="box-left">
-                        <MetaPost category={['Developer & Designer']}/>
-                        <h4>My inspiration relies on the freedom of endless possibilities, and my passion for designing and developing products with a touch of simplicity and originality.</h4>
+                        <MetaPost category={['About Me']}/>
+                        <h4>Improving computer interfaces for human experience. A Designer and Developer, who focuses on user experience and user interface design.</h4>
                     </div>
                     <div className="box-right">
-                        <p className="max-w570 dsn-up mb-15 ">
+                        {/* <p className="max-w570 dsn-up mb-15 ">
                             Born and raised in Rio de Janeiro, my family and I moved to Germany in 2002, where I specialized after high school as a Hotel Industry Expert @<a className="" href="https://group.accor.com/en" target="_blank">Accor</a>. After ten years of professional experience in event management and sales, I graduated from the Ironhack Tech School as a Fullstack Developer, subsequently starting my career in Tech.
+                            <a className="" href="" target="_blank"></a>
+                        </p> */}
+                        <p className="max-570 dsn-up mb-15">
+                            Originating from Rio de Janeiro and later making a home in Germany, my journey has been marked by a pursuit of knowledge and a passion for technology`s potential to improve lives. This path has led me from a foundational career in the hotel industry to a deeply felt commitment to enhancing how people interact with digital interfaces.
                         </p>
-
+                        <p className="max-w570 dsn-up mb-15">
+                            I am a Designer and Developer, dedicated to refining user experiences and the interfaces through which people engage with technology. My philosophy centers on the simplicity and intuitiveness of design, ensuring technology serves as a bridge, not a barrier, to human experiences.
+                        </p>
+                        <p className="max-w570 dsn-up mb-15">
+                            My educational journey has been pivotal in shaping my approach. At the <a className="" href="https://twin-cities.umn.edu/" target="_blank">University of Minnesota</a>, I specialized in User Interface Design. This program allowed me to deepen my understanding of user research, prototyping, design psychology, and evaluation techniques, grounding my work in a user-centric design philosophy.
+                        </p>
+                        <p className="max-w570 dsn-up mb-15">
+                            Furthering my technical skills, I graduated from the <a className="" href="https://www.ironhack.com/us" target="_blank">Ironhack Tech School</a> as a Fullstack Developer. This experience equipped me with the tools to not just envision but also build the solutions I design, marrying functionality with aesthetic in the creation of accessible, user-friendly applications.
+                        </p>
+                        <p className="max-w570 dsn-up mb-15">
+                            Currently, I contribute to a range of projects at Lohoff, working with esteemed clients such as <a className="" href="https://www.fidelityinternational.com/" target="_blank">Fidelity International</a>, <a className="" href="https://www.bmwgroup.com/en.html" target="_blank">BMW Group</a>, <a className="" href="https://www.continental.com/en/" target="_blank">Continental</a>, and <a className="" href="https://www.lufthansa.com/us/en/homepage" target="_blank">Lufthansa</a>. My role involves integrating corporate identities and agile methodologies into our user interfaces and workflows, with the aim of crafting more engaging and effective digital environments.
+                        </p>
                         <p className="max-w570 dsn-up">
-                            As a software developer and product designer with experience in FinTech, I specialize in creating award-winning SaaS solutions that prioritize user experience and clean user interface design. Currently, I am overseeing the frontend and design for a diverse portfolio of clients @Lohoff, including BMW Group, Mercedes Benz, Thyssenkrupp, and Lufthansa. My expertise in implementing  corporate identities and agile methodologies into our user interfaces and workflows has allowed me to develop, redesign and modernize many prominent FinTech applications.
+                            In all my endeavors, I approach technology as a means to connect, enhance, and simplify human experiences. I believe in the power of thoughtful design and development to create solutions that resonate on a personal level and make technology more accessible to everyone.
                         </p>
                     </div>
                 </DsnGrid>
