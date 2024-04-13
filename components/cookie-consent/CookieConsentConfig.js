@@ -53,7 +53,7 @@ const pluginConfig = {
   languages: {
     en: {
       consent_modal: {
-        title: 'bybernardo uses cookies to offfer you a better experience. ',
+        title: 'bybernardo uses cookies to offer you a better experience. ',
         description:
           'See <button type="button" data-cc="c-settings" class="cc-link">Cookie Notice</button> for details',
         primary_btn: {
