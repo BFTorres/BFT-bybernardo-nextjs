@@ -17,12 +17,12 @@ function Work() {
                 <title>Articles | Bernardo Fonseca Torres</title>
             </Head>
         {/*========== Header Normal ========== */}
-            <HeaderNormal backgroundColor="background-section" className="text-center">
-                <p className="subtitle p-relative line-shape  dsn-load-animate">
+            <HeaderNormal backgroundColor="background-section" className="">
+                {/* <p className="subtitle p-relative line-shape  dsn-load-animate">
                     <span className="pl-10 pr-10 background-main"> ARTICLES </span>
-                </p>
-                <h1 className="title text-uppercase">
-                Discover stories, thinking, and expertise
+                </p> */}
+                <h1 className="title-brutalist text-uppercase">
+                    Articles
                 </h1>
             </HeaderNormal>
             {/*========== End Header Normal ==========*/}

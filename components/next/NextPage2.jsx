@@ -3,9 +3,9 @@ import Button from "../button/Button";
 import BgDot from "../header/BgDot";
 
 const NextContent = {
-    title: "LET'S WORK TOGETHER",/* 
-    subtitle: `Don't be weird.`, */
-    buttonText: "Portfolio"
+    /* title: "LET'S WORK TOGETHER", */
+    title: "SAY HI!",
+    buttonText: "Work"
 };
 
 function NextPage2({className, ...restProps}) {
@@ -21,12 +21,13 @@ function NextPage2({className, ...restProps}) {
                         {/* <p className="sub-heading line-shap line-shap-after ">
                             <span className="line-bg-left">{NextContent.subtitle}</span>
                         </p> */}
-                        <h2 className="section-title max-w750 mt-15">
+                        {/* <h2 className="section-title max-w750 mt-15"> */}
+                        <h2 className="title-brutalist-min text-uppercase">
                             {NextContent.title}
                         </h2>
                     </div>
 
-                    <div className="button-box d-flex justify-content-end align-items-center">
+                    {/* <div className="button-box d-flex justify-content-end align-items-center">
                         <Button
                             href={"/work-card-2-col"}
                             className="button-brutalist mr-15 "
@@ -36,7 +37,24 @@ function NextPage2({className, ...restProps}) {
                         >
                             {NextContent.buttonText}
                         </Button>
-                    </div>
+                    </div> */}
+                </div>
+                <div className="button-box d-flex align-items-center">
+                        <Button
+                            href={"/work-card-2-col"}
+                            className="button-brutalist mt-20 mr-20 "
+                            borderStyle={false}
+                            borderRadius
+                            transitionPage={{title: "Portfolio"}}
+                        >
+                            {NextContent.buttonText}
+                        </Button>
+                        {/* <Button href={"/blog-list"} className="button-brutalist mt-20" borderStyle={false} borderRadius>
+                            Articles
+                        </Button> */}
+                        <Button href={"https://www.linkedin.com/in/bernardo-fonseca-torres/"} className="button-brutalist mt-20" borderStyle={false} borderRadius>
+                            Contact me
+                        </Button>
                 </div>
             </div>
         </section>

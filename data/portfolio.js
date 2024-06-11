@@ -12,6 +12,15 @@ const data = [
     },
     {
         id: 2,
+        title: "Ford",
+        slug: 'ford',
+        category: ['FinTech', 'Frontend', 'Design'],
+        src: '/img/project/project5/sam-warren-JKsAVzwn9CQ-unsplash.jpg',
+        description: 'FinTech application for Ford.',
+        overlay: 2
+    },
+    {
+        id: 5,
 
         title: "Mercedes Benz",
         slug: 'mercedes-benz',
@@ -41,16 +50,7 @@ const data = [
         src: '/img/project/project4/plane-gff4c52fb7_1920.jpg',
         description: 'FinTech application for Lufthansa.',
         overlay: 2
-    },
-    {
-        id: 5,
-        title: "Ford",
-        slug: 'ford',
-        category: ['FinTech', 'Frontend', 'Design'],
-        src: '/img/project/project5/sam-warren-JKsAVzwn9CQ-unsplash.jpg',
-        description: 'FinTech application for Ford.',
-        overlay: 2
-    },
+    }/* ,
     {
         id: 6,
         title: "Fidelity",
@@ -59,7 +59,7 @@ const data = [
         src: '/img/project/project5/sam-warren-JKsAVzwn9CQ-unsplash.jpg',
         description: 'FinTech application for Fidelity.',
         overlay: 2
-    }/* ,
+    } *//* ,
     {
         id: 5,
         title: "InCapSolution",

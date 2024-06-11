@@ -125,7 +125,7 @@ const menuContent = [
         ]
     }, */
     {name: "ABOUT", href: "/about"},
-    {name: "CONTACT", href: "/contact"},
+    {name: "CONTACT", href: "https://www.linkedin.com/in/bernardo-fonseca-torres/"},
     {name: "IMPRINT", href: "/imprint"}
 
 ];

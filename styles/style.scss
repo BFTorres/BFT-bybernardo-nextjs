@@ -36,20 +36,31 @@
 @import "variables-site/_variables-site.scss";
 @import "global/_normalize.scss";
 @import "typography/_typography.scss";
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap'); */
+@font-face {
+  font-family: 'Montreal';
+  src: url('./typography/fonts/montreal/Montreal-Regular.ttf')
+}
+@font-face {
+  font-family: 'Grotesk-Bold';
+  src: url('./typography/fonts/Space_Grotesk/static/SpaceGrotesk-Bold.ttf')
+}
 
 :root, :root .v-light {
   --bg-color: #f9f9f9;
   /* --assistant-color: #e6e6e6; */
   --assistant-color: #f9f9f9;
   --theme-color: #F00659;
-  --font-color: #0009;
+  /* --font-color: #0009; */
+  --font-color: #7e8288;
   /* --heading-color: #f0065a; */
-  --heading-color: #333333;
+ /*  --heading-color: #333333; */
+  --heading-color: #7e8288;
   --border-color: #bebebe;
   --smooth-color: #141414;
-  --reverse-color: #141414;
+  --reverse-color: #7e8288;
   --reverse-heading-color: #fff;
   --bybernardo-font: #ffffff;
 }
@@ -62,8 +73,8 @@
   --heading-color: #fff;
   --border-color: rgba(255, 255, 255, 0.07);
   --smooth-color: #f9f9f9;
-  --reverse-color: #f9f9f9;
-  --reverse-heading-color: #000;
+  --reverse-color: #7e8288;
+  --reverse-heading-color: #7e8288;
   --bybernardo-font: #ffffff;
 }
 
@@ -86,8 +97,8 @@
 
 
 :root {
-  --body-font: 'Roboto', sans-serif;
-  --heading-font: 'Open Sans', 'Poppins', sans-serif;
+  --body-font: 'Montreal','Poppins', sans-serif;
+  --heading-font: 'Grotesk-Bold', 'Poppins', sans-serif;
   --font-code: Menlo, monaco, Consolas, Lucida Console, monospace;
   --font-pre: "Courier 10 Pitch", Courier, monospace;
 
@@ -220,6 +231,18 @@ a:hover {
         
 }
 
+.logo-hover {
+  border: solid 0.0625rem #000000;
+  border-radius: 0.25rem;
+  transform: translate(-0.25rem,-0.25rem);
+  box-shadow: 0.35rem 0.35rem #000000;
+}
+
+.logo-hover:hover {
+  transform: translate( 0rem, 0rem);
+  box-shadow: none;
+}
+
 /* .cc_div .c-bn {
   background: #333333 !important;
         line-height: 1.5;
@@ -261,3 +284,16 @@ a:hover {
   box-shadow: none;
   color: #F00659;
 }
+
+
+#dsn-scrollbar .scrollbar-track .scrollbar-thumb, .sidebar-single .scrollbar-track .scrollbar-thumb, .dsn-work-scrollbar .scrollbar-track .scrollbar-thumb {
+  background: #fff;
+  width: var(--smooth-width);
+}
+
+/* @media only screen and (min-width: 992px) {
+  body.dsn-line-style .main-content.dsn-main-scrollbar .scrollbar-track {
+      left: none;
+      right: auto;
+  }
+} */

@@ -31,7 +31,7 @@ function MainScrollBar({children, options, ...restProps}: ScrollbarOp) {
         ref.current?.style.removeProperty("overflow");
         document.body.classList.add("dsn-active-scrollbar");
 
-        ref.current.querySelector(".scrollbar-track.scrollbar-track-x")?.remove();
+        ref.current.querySelector(".scrollbar-track")?.remove(); /* .scrollbar-track-x */
 
         return () => {
             ScrollTrigger.defaults({

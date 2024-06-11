@@ -31,7 +31,7 @@ function ScrollToTop({className, options, ...restProps}) {
         <div className={dsnCN("scroll-top animation-rotate", className)} data-dsn="parallax" {...restProps}
              style={{cursor: "pointer"}}
              ref={scroll}>
-            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+            {/* <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                  xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                  viewBox="0 0 174 173"
                  xmlSpace="preserve">
@@ -106,7 +106,7 @@ function ScrollToTop({className, options, ...restProps}) {
 		 M18,50.8l0.6-1.1c0.5-0.9,0.5-1.7-0.5-2.2c-0.8-0.5-1.5-0.1-2,0.8l-0.6,1.2L18,50.8z"/>
                     <path className="st0" d="M33.3,31.3l1.1,1.1l-2.5,2.6l-1.1-1.1L33.3,31.3z"/>
                 </g>
-            </svg>
+            </svg> */}
             <FontAwesomeIcon icon={faAngleUp} className={"fa-icon"}/>
         </div>
 

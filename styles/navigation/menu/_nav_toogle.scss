@@ -12,7 +12,7 @@
     .toggle-line {
       position: relative;
       height: 2px;
-      background-color: $heading-color;
+      background-color: #7e8288;
       width: 25px;
       transition: 0.5s;
 
@@ -47,7 +47,7 @@
     position: relative;
     --animate-trans: translateY(5px) rotateX(75deg);
     min-width: 43px;
-    color: $heading-color;
+    color: #7e8288;
 
     .text-open, .text-close {
       position: absolute;

@@ -81,8 +81,8 @@ function Layout({className, children, tag: Tag = "div", activeScrollbar, options
 }
 
 Layout.defaultProps = {
-    colorVersion: "dark",
-    activeScrollbar: true,
+    colorVersion: "light",
+    activeScrollbar: false,
     optionsScrollbar: {damping: 0.085, alwaysShowTracks: true}
 }
 

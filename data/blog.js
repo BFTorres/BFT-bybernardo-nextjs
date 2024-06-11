@@ -2,8 +2,8 @@ const data = [
     {
         id: 1,
         title: "The Three Mile Island Accident",
-        slug: 'blog-post-23052023',
-        author: "Bernardo Fonseca Torres",
+        slug: 'blog-post-the-three-mile-island-accident',
+        author: "Bernardo",
         date: "May , 23th 2023",
         category: ['UX/UI Design'],
         description: `In this article, we explore the events leading to the accident, shed light on the design shortcomings, and emphasize the significance of human-centered design to avert future disasters...`,

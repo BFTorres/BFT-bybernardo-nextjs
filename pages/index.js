@@ -40,8 +40,14 @@ const headerContent = {
     /* src: "/img/about-me-sketch.png" */
 };
 const headerData = {
-    title: `bybernardo`.toUpperCase(),
-    /* subtitle: `<span class="heading-color line-shape line-shape-before">We are a design & development agency</span>`, */
+    /* title: `Bernardo Fonseca`.toUpperCase(), */
+    subtitle: `
+    <h4 class="subtitle-index pb-30">
+        Saudações, いらっしゃいませ<span class="bybernardo-red-font">!</span>
+    </h4>
+    <h4 class="subtitle-index">
+        Bernardo is a <span class="bybernardo-red-font">Designer</span> and <span class="bybernardo-red-font">Developer</span> who strives to craft remarkable digital experiences that are useful and feel natural for clients and their audiences. Currently, he designs  and develops user interfaces at <span class="bybernardo-red-font">Lohoff</span>, a leading FinTech company.
+    </h4>`,
     /* src: "/img/header.jpg" */
 }
 
@@ -57,7 +63,7 @@ function Home() {
         <Layout modelRight={{children: <ModalContact/>, propsModal: {textBtn: "Contact"}}}>
             <Head>
                 <title>
-                    Home | Bernardo Fonseca Torres - Digital Craftsman
+                    Home | Bernardo Fonseca Torres - Digital Craftsman, Product Designer and Front-End Developer at Lohoff.
                 </title>
             </Head>
 
@@ -74,48 +80,30 @@ function Home() {
             {/* <div className="section-margin" data-dsn-title="Start">
                 <HeroSection className="container" />
             </div> */}
-            
-            {/* <HeaderFull 
-                className="container" 
-                heroContent={headerContent} 
-                skin={"half-personal"} 
-                overlay={5} // dark-mode
-                //overlay={0} //
-                data-dsn-title="start"
-            >
-                <h5 className="pt-30">
-                    Digital Craftsman based in Hannover, Germany. Currently Frontend Developer and UX/UI Designer @Lohoff.
-                </h5>
-                <Button href={"/about"} className="mt-30 line-head" borderStyle={"border-color-theme-color"}
-                        borderRadius>
-                    About Me
-                </Button>
-                <Button href={"/slider-full-distortion-h"} className="mt-30" borderStyle={"border-color-theme-color"}
-                        borderRadius>
-                    Work
-                </Button>
-            </HeaderFull> */}
             <HeaderFull className="dsn-container" heroContent={headerData} overlay={5} fullWidth >
-                <h4 className="mt-20">
+                {/* <h4 className="mt-20">
                     <span className="bybernardo-red-font">Digital Craftsman</span> based in Hannover, Germany. <br />Currently Frontend <span className="bybernardo-red-font">Developer</span> and Digital Product <span className="bybernardo-red-font">Designer</span> @Lohoff.
-                </h4>
-                <Button href={"/about"} className="button-brutalist mt-20 mr-20" borderStyle={false} borderRadius>
+                </h4> */}
+                {/* <Button href={"#portfolio-scroll"} className="button-brutalist mt-20 mr-20" borderStyle={false} borderRadius>
                     About Me
                 </Button>
                 <Button href={"/slider-full-distortion-h"} className="button-brutalist mt-20" borderStyle={false} borderRadius>
                     Work
-                </Button>
+                </Button> */}
+                {/* <h1 className="title-brutalist-min text-uppercase">
+                    Digital Craftsman
+                </h1> */}
             </HeaderFull>
             
 
             {/*Start Portfolio*/}
-            <div className="section-margin" data-dsn-title="Portfolio">
+            <div className="section-margin" data-dsn-title="Portfolio" id="portfolio-scroll">
                 <TitleSection
-                    className={`container`}
+                    className={`dsn-container`}
                 >
-                    CREATIVE PORTFOLIO
+                    DIGITAL EXPERIENCES
                 </TitleSection>
-                <PortfolioSwiper
+                {/* <PortfolioSwiper
                     grabCursor
                     desktop={{spaceBetween: 50, slidesPerView: 1.5}}
                     tablet={{spaceBetween: 0, slidesPerView: 1.3}}
@@ -135,7 +123,24 @@ function Home() {
                     <SwiperPagination
                         className={`justify-content-between dsn-container mt-30`}
                     />
-                </PortfolioSwiper>
+                </PortfolioSwiper> */}
+
+                 {/*Start Portfolio*/}
+                <PortfolioSwiper grabCursor
+                                desktop={{spaceBetween: 0, slidesPerView: 3}}
+                                tablet={{spaceBetween: 0, slidesPerView: 2 , centeredSlides: false}}
+                                mobile={{spaceBetween: 0, slidesPerView: 1 , centeredSlides: false}}
+                                stylePortfolio="work-section work-no-scale"
+                                className="text-center v-dark-head"
+                                centeredSlides loop
+                                parallax
+                                speed={800}
+                                watchSlidesProgress
+                                loopedSlides={2}
+                                data-dsn-title="our Work"
+                />
+
+            {/*End Portfolio*/}
                 
                 {/* <PortfolioSwiper grabCursor
                                 desktop={{spaceBetween: 0, slidesPerView: 3}}
@@ -164,38 +169,6 @@ function Home() {
                 <ServiceOne/>
             </div> */}
             {/*End Service*/}
-
-            {/*Start Box Info Move Content*/}
-            {/* <div className="p-relative section-margin">
-                <ParallaxImage src="/img/project/project3/2.jpg" overlay={2} alt={""}/>
-                <MoveBox tablet={false}>
-                    <TitleSection
-                        className={`align-items-start mb-30`}
-                        description={"Build perfect websites"}
-                        defaultSpace={false}
-                    >
-                        Unlimited power
-                    </TitleSection>
-
-                    <p className="mb-10">
-                        Most of our writings have centered on implementing strategies for
-                        business units, with their unique
-                    </p>
-                    <p className="mb-30">
-                        geeza arse it’s your round grub sloshed burke, my good sir chancer
-                        he legged it he lost his bottle pear shaped bugger all mate
-                    </p>
-
-                    <Button href={"work-classic-2-col"} className={"image-zoom"} data-dsn="parallax" transitionPage={{title:"Our Portfolio"}}>
-                        More Projects <span>⟶</span>
-                    </Button>
-
-                    <p className={`sm-p mt-15 theme-color`}>
-                        NOTE : Some details are very important.
-                    </p>
-                </MoveBox>
-            </div> */}
-            {/*End Box Info Move Content*/}
 
 
             
@@ -276,10 +249,10 @@ function Home() {
             {/*Start Blog*/}
             <div className="section-margin" data-dsn-title="Articles">
                 <TitleSection
-                    className={`container`}
+                    className={`dsn-container`}
                    
                 >
-                    DISCOVER STORIES, THINKING, AND EXPERTISE
+                    WRITTEN EXPERIENCES
                 </TitleSection>
                 <BlogSwiper
                     className="dsn-container"
