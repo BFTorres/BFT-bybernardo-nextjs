@@ -8,7 +8,7 @@ function MetaPost({date = false, className = null, category, separate = null}) {
             {date && <span className="post-date">{date} </span>}
             {category && <div className="metas">
                 {typeof category === "object" ? category.map((cat, index) => <span key={index}
-                                                                                   data-separate={separate}>{cat}</span>) :
+                 data-separate={separate}>{cat}</span>) :
                     <span>{category}</span>}
             </div>}
         </Meta>
@@ -22,13 +22,13 @@ export const Meta = styled.span`
   letter-spacing: 1.2px;
   word-spacing: 2px;
 
-  span {
+  /* span {
     margin-bottom: 8px;
-  }
+  } */
 
-  .post-date, .post-cat {
+  /* .post-date, .post-cat {
     display: inline-block
-  }
+  } */
 
   .post-date {
     padding-right: 20px;

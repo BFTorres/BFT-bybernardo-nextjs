@@ -57,7 +57,7 @@ function PortfolioSwiper(
                 576: mobile
             }}
 
-            className={dsnCN("work", className, stylePortfolio , blur && "has-blur")}
+            className={dsnCN("work", className, stylePortfolio, blur && "has-blur")}
 
             {...restProps}
 
@@ -66,7 +66,7 @@ function PortfolioSwiper(
             {
                 dataPortfolio.map((item, index) =>
                     <SwiperSlide key={index}>
-                        <PortfolioItem portoDetails={item} textButton="View Case" parallaxImage={parallaxImage}
+                        <PortfolioItem portoDetails={item} parallaxImage={parallaxImage}
                                        parallaxContent={parallaxContent} styleBox={styleBox}/>
                     </SwiperSlide>)
             }

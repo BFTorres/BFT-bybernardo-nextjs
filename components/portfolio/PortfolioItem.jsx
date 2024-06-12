@@ -69,10 +69,10 @@ function PortfolioItem({portoDetails , styleBox, height = "100%", imageOnly, cla
                 </DsnLink>
             </div>
             <div className="info-text box-content" {...parallaxContent}>
-                {/* {portoDetails.category && <MetaPost category={portoDetails.category}/>} */}
+                {portoDetails.category && <MetaPost category={portoDetails.category}/>}
 
                 {portoDetails.title &&
-                <h4 className="title-block sec-title mt-20">
+                <h4 className="title-block sec-title">
                     <DsnLink href={getPortfolioLink(portoDetails)} transitionPage={{title:portoDetails.title}}>{portoDetails.title} ↗</DsnLink>
                 </h4>}
 

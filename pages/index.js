@@ -97,12 +97,22 @@ function Home() {
             
 
             {/*Start Portfolio*/}
-            <div className="section-margin" data-dsn-title="Portfolio" id="portfolio-scroll">
+            {/* <div className="dsn-container section-margin">
+                <Portfolio stylePortfolio={"work-classic"}
+                           useFilter
+                           styleBox={"styleBox"}
+                           col={2} colGap={50} rowGap={50}
+                />
+            </div> */}
+            <div className="section-margin" data-dsn-title="Portfolio">
                 <TitleSection
                     className={`dsn-container`}
                 >
                     DIGITAL EXPERIENCES
-                </TitleSection>
+                </TitleSection>{/* 
+                <p className="dsn-container pb-30">
+                    This is a just a small part of the great clients I worked for. You know how it is with designer portfolios: We don`t have time to update them because we usually are super busy making our client`s projects amazing. Also NDAs 🤫.
+                </p> */}
                 {/* <PortfolioSwiper
                     grabCursor
                     desktop={{spaceBetween: 50, slidesPerView: 1.5}}
@@ -131,13 +141,12 @@ function Home() {
                                 tablet={{spaceBetween: 0, slidesPerView: 2 , centeredSlides: false}}
                                 mobile={{spaceBetween: 0, slidesPerView: 1 , centeredSlides: false}}
                                 stylePortfolio="work-section work-no-scale"
-                                className="text-center v-dark-head"
+                                className="v-dark-head"
                                 centeredSlides loop
                                 parallax
                                 speed={800}
                                 watchSlidesProgress
                                 loopedSlides={2}
-                                data-dsn-title="our Work"
                 />
 
             {/*End Portfolio*/}
@@ -301,7 +310,7 @@ function Home() {
             {/*========== End team Section ========== */}
 
             {/*========== End brand-client Section ==========*/}
-            <section className="container section-margin" data-dsn-title="clients">
+            <section className="container section-margin">
                 <TitleSection
                     className={`align-items`}
                     description={""}

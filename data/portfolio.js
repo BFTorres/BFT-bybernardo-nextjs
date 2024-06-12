@@ -3,18 +3,18 @@
 const data = [
     {
         id: 1,
-        title: "BMW Group",
+        title: "BMW GROUP",
         slug: 'bmw-group',
-        category: ['FinTech', 'Frontend', 'Design'],
+        category: ['Product Design'],
         description: 'FinTech application for the BMW Group (BMW, Rolls Royce, Mini).',
         src: '/img/project/project1/pexels-brandin-t-13182965.jpg',
         overlay: 6
     },
     {
         id: 2,
-        title: "Ford",
+        title: "FORD",
         slug: 'ford',
-        category: ['FinTech', 'Frontend', 'Design'],
+        category: ['Product Design'],
         src: '/img/project/project5/sam-warren-JKsAVzwn9CQ-unsplash.jpg',
         description: 'FinTech application for Ford.',
         overlay: 2
@@ -22,11 +22,11 @@ const data = [
     {
         id: 5,
 
-        title: "Mercedes Benz",
+        title: "MERCEDES BENZ",
         slug: 'mercedes-benz',
         src: '/img/project/project3/1.jpg',
 
-        category: ['FinTech', 'Frontend', 'Design'],
+        category: ['Product Design'],
         description: 'FinTech application for Mercedes Benz.',
         
         overlay: 6
@@ -35,18 +35,18 @@ const data = [
     {
         id: 3,
         
-        title: "Thyssenkrupp & TKE",
+        title: "THYSSENKRUPP & TKE",
         slug: 'thyssenkrupp',
         src: '/img/project/project2/ant-rozetsky-SLIFI67jv5k-unsplash.jpg',
-        category: ['FinTech', 'Frontend', 'Design'],
+        category: ['Product Design'],
         description: 'FinTech application for Thyssenkrupp and TKE.',
         overlay: 6
     },
     {
         id: 4,
-        title: "Lufthansa",
+        title: "LUFTHANSA",
         slug: 'lufthansa',
-        category: ['FinTech', 'Frontend', 'Design'],
+        category: ['Product Design'],
         src: '/img/project/project4/plane-gff4c52fb7_1920.jpg',
         description: 'FinTech application for Lufthansa.',
         overlay: 2
@@ -55,7 +55,7 @@ const data = [
         id: 6,
         title: "Fidelity",
         slug: 'fidelity',
-        category: ['FinTech', 'Frontend', 'Design'],
+        category: ['Product Design'],
         src: '/img/project/project5/sam-warren-JKsAVzwn9CQ-unsplash.jpg',
         description: 'FinTech application for Fidelity.',
         overlay: 2

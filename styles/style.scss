@@ -193,8 +193,17 @@ a {
   color: #F00659;
 }
 
+.portfolio-item a {
+  color: #fafafa;
+}
+
 a:hover {
   color: #bebebe;
+}
+
+.portfolio-item a:hover {
+  color: #bebebe;
+  text-decoration: underline;
 }
 
 .button-brutalist/* ,
@@ -296,4 +305,9 @@ a:hover {
       left: none;
       right: auto;
   }
+} */
+
+/* a:hover {
+  text-decoration: none !important;
+  cursor: url('../public/img/arrow-top-right-black.png'), auto !important;
 } */

@@ -213,12 +213,13 @@ h6, .h6 {
 }
 
 .metas {
-  padding: 0 5px;
+ /*  padding: 0 5px; */
   font-size: 16px;
 
   span {
     position: relative;
-    color: $heading-color;
+    /* color: $heading-color; */
+    color: #cacaca;
     font-size: 13px;
     font-weight: 500;
     text-transform: uppercase;
@@ -226,13 +227,14 @@ h6, .h6 {
 
 
     &:not([data-separate]){
-      padding: 6px 15px;
+      padding: 0px 0px 0p 15px;
       /* border-right: 1px solid $border-color;
       border-left: 1px solid $border-color; */
 
       border-radius: 0.25rem;
       /* border: 1px solid #ffffff; */
-      background: #bebebe;
+      /* background: #bebebe; */
+      background: transparent; 
 
       &:not(:last-child){
         margin-right: 15px;
@@ -283,6 +285,21 @@ h6, .h6 {
   @include media_768 {
     font-size: 25px;
   }
+}
+
+#main-content .subtitle.mb-20 {
+
+  margin-top: 40px;
+
+  @include media_991 {
+    margin-top: 72px;
+  }
+
+  @include media_575 {
+    margin-top: 50px;
+  }
+
+
 }
 
 
