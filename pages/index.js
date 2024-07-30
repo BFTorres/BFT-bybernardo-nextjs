@@ -42,9 +42,9 @@ const headerContent = {
 const headerData = {
     /* title: `Bernardo Fonseca`.toUpperCase(), */
     subtitle: `
-    <h4 class="subtitle-index pb-30">
+    <h5 class="subtitle-index pb-30">
         Saudações, いらっしゃいませ<span class="bybernardo-red-font">!</span>
-    </h4>
+    </h5>
     <h4 class="subtitle-index">
         Bernardo is a <span class="bybernardo-red-font">Designer</span> and <span class="bybernardo-red-font">Developer</span> who strives to craft remarkable digital experiences that are useful and feel natural for clients and their audiences. Currently, he designs  and develops user interfaces at <span class="bybernardo-red-font">Lohoff</span>, a leading FinTech company.
     </h4>`,

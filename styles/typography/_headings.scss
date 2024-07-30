@@ -100,6 +100,23 @@ h6, .h6 {
   }
 }
 
+h5.subtitle-index {
+  position: relative;
+  color: #7e8288;
+  font-weight: 400;
+  font-family: $body-font;
+  /* font-size: 55px; */
+  font-size: 30px;
+  /* letter-spacing: 2px; */
+
+
+  @include media_575 {
+    font-size: 20px;
+    /* line-height: 1.2; */
+    line-height: 28px;
+  }
+}
+
 .title-brutalist {
   position: relative;
   color: $heading-color;
@@ -289,14 +306,14 @@ h6, .h6 {
 
 #main-content .subtitle.mb-20 {
 
-  margin-top: 40px;
+  margin-top: 50px;
 
   @include media_991 {
     margin-top: 72px;
   }
 
   @include media_575 {
-    margin-top: 50px;
+    margin-top: 60px;
   }
 
 
