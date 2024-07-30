@@ -46,7 +46,7 @@ const headerData = {
         Saudações, いらっしゃいませ<span class="bybernardo-red-font">!</span>
     </h5>
     <h4 class="subtitle-index">
-        Bernardo is a <span class="bybernardo-red-font">Designer</span> and <span class="bybernardo-red-font">Developer</span> who strives to craft remarkable digital experiences that are useful and feel natural for clients and their audiences. Currently, he designs  and develops user interfaces at <span class="bybernardo-red-font">Lohoff</span>, a leading FinTech company.
+        Bernardo <span class="bybernardo-red-font">designs</span> and <span class="bybernardo-red-font">develops</span> useful and natural digital experiences. He's currently a Product Designer at <span class="bybernardo-red-font">Lohoff</span>, a leading FinTech company.
     </h4>`,
     /* src: "/img/header.jpg" */
 }
