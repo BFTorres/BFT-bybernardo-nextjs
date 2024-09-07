@@ -3,9 +3,9 @@ import Button from "../button/Button";
 import BgDot from "../header/BgDot";
 
 const NextContent = {
-    title: "Say Hi!",
+    title: "Let's work together",
     /* subtitle: `Don't be weird.`, */
-    buttonText: "Work"
+    /* buttonText: "Let's work together" */
 };
 
 function NextPage({className, ...restProps}) {
@@ -24,7 +24,7 @@ function NextPage({className, ...restProps}) {
                         <h2 className="section-title max-w750 mt-15">
                             {NextContent.title}
                         </h2> */}
-                        <h2 className="title-brutalist-min text-uppercase">
+                        <h2 className="section-title text-uppercase">
                             {NextContent.title}
                         </h2>
                     </div>

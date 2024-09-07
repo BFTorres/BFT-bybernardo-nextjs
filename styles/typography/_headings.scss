@@ -78,7 +78,8 @@ h6, .h6 {
 
 .subtitle-index {
   position: relative;
-  color: #7e8288;
+  /* color: #7e8288; */
+  color: #f0f2f6;
   font-weight: 400;
   font-family: $body-font;
   /* font-size: 55px; */
@@ -102,7 +103,8 @@ h6, .h6 {
 
 h5.subtitle-index {
   position: relative;
-  color: #7e8288;
+  /* color: #7e8288; */
+  color: #dbe0e5;
   font-weight: 400;
   font-family: $body-font;
   /* font-size: 55px; */
@@ -117,7 +119,7 @@ h5.subtitle-index {
   }
 }
 
-.title-brutalist {
+/* .title-brutalist {
   position: relative;
   color: $heading-color;
   font-family: $heading-font;
@@ -136,9 +138,9 @@ h5.subtitle-index {
   }
 
 
-}
+} */
 
-.title-brutalist-min {
+/* .title-brutalist-min {
   position: relative;
   color: $heading-color;
   font-family: $heading-font;
@@ -163,7 +165,7 @@ h5.subtitle-index {
   }
 
 
-}
+} */
 
 .title-heading {
   &.mb-70 {

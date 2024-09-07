@@ -28,7 +28,7 @@ import Head from "next/head";
 const headerData = {
     title: `Crafting Digital <br/> Experiences`.toUpperCase(),
     subtitle: `<span class="heading-color line-shape line-shape-before">We are a design & development agency</span>`,
-    src: "/img/header.jpg"
+    src: "/img/grain-bg.gif"
 }
 
 

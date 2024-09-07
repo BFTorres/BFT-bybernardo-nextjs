@@ -49,18 +49,20 @@
 }
 
 :root, :root .v-light {
-  --bg-color: #f9f9f9;
+  /* --bg-color: #f9f9f9; */
+  --bg-color: #3d422e;
   /* --assistant-color: #e6e6e6; */
-  --assistant-color: #f9f9f9;
+  /* --assistant-color: #f9f9f9; */
+  --assistant-color: #3d422ef9;
   --theme-color: #F00659;
   /* --font-color: #0009; */
-  --font-color: #7e8288;
+  --font-color: #f0f2f6;
   /* --heading-color: #f0065a; */
  /*  --heading-color: #333333; */
-  --heading-color: #7e8288;
+  --heading-color: #f0f2f6;/*  #7e8288 */
   --border-color: #bebebe;
   --smooth-color: #141414;
-  --reverse-color: #7e8288;
+  --reverse-color: #f0f2f6;
   --reverse-heading-color: #fff;
   --bybernardo-font: #ffffff;
 }
@@ -73,8 +75,8 @@
   --heading-color: #fff;
   --border-color: rgba(255, 255, 255, 0.07);
   --smooth-color: #f9f9f9;
-  --reverse-color: #7e8288;
-  --reverse-heading-color: #7e8288;
+  --reverse-color: #f0f2f6;
+  --reverse-heading-color: #f0f2f6;
   --bybernardo-font: #ffffff;
 }
 
@@ -213,8 +215,9 @@ a:hover {
         line-height: 1.5;
         --line-height: 1.5rem;
         padding: 0.75rem 1rem;
-        border: solid 0.0625rem #333333;
-        color: #333333 !important;
+        border: solid 0.0625rem #f0f2f6; /* #333333 */
+        /* color: #333333 !important; */
+        color: #f0f2f6 !important;
         font-weight: bold;
         border-radius: 0.25rem;
         display: grid;
@@ -236,7 +239,7 @@ a:hover {
         text-overflow: ellipsis;
         
         transform: translate(-0.25rem,-0.25rem);
-        box-shadow: 0.35rem 0.35rem #333333;
+        box-shadow: 0.35rem 0.35rem #f0f2f6; /* #333333 */
         
 }
 
@@ -291,7 +294,7 @@ a:hover {
   box-shadow: 0.35rem 0.35rem #333333; */
   transform: translate( 0rem, 0rem);
   box-shadow: none;
-  color: #F00659;
+  color: #F00659 !important;
 }
 
 

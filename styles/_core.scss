@@ -13,7 +13,6 @@ body {
   font-weight: 400;
   margin: 0;
   text-rendering: optimizeLegibility;
-
   transition: 100ms;
   transition-property: background-color, color;
 }
@@ -343,7 +342,7 @@ body, .main-root {
       width: 1.5px;
       height: 100%;
       left: -.5px;
-      background-color: #7e8288;
+      background-color: #f0f2f6;
       z-index: -1;
 
       border-radius: 0.25rem;

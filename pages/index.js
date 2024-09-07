@@ -48,6 +48,14 @@ const headerData = {
     <h4 class="subtitle-index">
         Bernardo <span class="bybernardo-red-font">designs</span> and <span class="bybernardo-red-font">develops</span> useful and natural digital experiences. He's currently a Product Designer at <span class="bybernardo-red-font">Lohoff</span>, a leading FinTech company.
     </h4>`,
+    /* subtitle: `
+        <h2 class="section-title  title-cap">
+            Bringing ideas to life with pixels and code
+        </h2>
+        <h5 class="subtitle-index pt-30">
+            Bernardo, <span class="bybernardo-red-font">Product Designer</span> & Dev from Germany
+        </h5>
+    ` */
     /* src: "/img/header.jpg" */
 }
 
@@ -63,7 +71,7 @@ function Home() {
         <Layout modelRight={{children: <ModalContact/>, propsModal: {textBtn: "Contact"}}}>
             <Head>
                 <title>
-                    Home | Bernardo Fonseca Torres - Digital Craftsman, Product Designer and Front-End Developer at Lohoff.
+                    Bernardo Fonseca Torres - Product Designer and Frontend Developer based in Hannover, Germany.
                 </title>
             </Head>
 
@@ -84,12 +92,12 @@ function Home() {
                 {/* <h4 className="mt-20">
                     <span className="bybernardo-red-font">Digital Craftsman</span> based in Hannover, Germany. <br />Currently Frontend <span className="bybernardo-red-font">Developer</span> and Digital Product <span className="bybernardo-red-font">Designer</span> @Lohoff.
                 </h4> */}
-                {/* <Button href={"#portfolio-scroll"} className="button-brutalist mt-20 mr-20" borderStyle={false} borderRadius>
+                <Button href={"/about"} className="button-brutalist mt-20 mr-20" borderStyle={false} borderRadius>
                     About Me
                 </Button>
                 <Button href={"/slider-full-distortion-h"} className="button-brutalist mt-20" borderStyle={false} borderRadius>
                     Work
-                </Button> */}
+                </Button>
                 {/* <h1 className="title-brutalist-min text-uppercase">
                     Digital Craftsman
                 </h1> */}
@@ -104,38 +112,36 @@ function Home() {
                            col={2} colGap={50} rowGap={50}
                 />
             </div> */}
-            <div className="section-margin" data-dsn-title="Portfolio">
+            {/* <div className="p-relative dsn-under-header " data-dsn-title="Our Work">
+                <div className="half-bg-top background-section h-50"/>
+                <PortfolioSwiper grabCursor
+                                 desktop={{spaceBetween: 50, slidesPerView: 1.5}}
+                                 tablet={{spaceBetween: 20, slidesPerView: 1.25}}
+                                 mobile={{spaceBetween: 0, slidesPerView: 1}}
+                                 stylePortfolio="work-section"
+                                 className="v-dark-head title-inherit h4"
+                                 centeredSlides loop
+                                 blur
+                                 parallax
+                                 speed={1200}
+                                 watchSlidesProgress
+                                 loopedSlides={2}
+                                 parallaxImage={{
+                                     "data-swiper-parallax-scale": "0.85" ,
+                                     "data-swiper-parallax": "20%" ,
+                                 }}
+                                 parallaxContent={{"data-swiper-parallax-opacity": "0"}}
+                >
+                    <SwiperPagination className={`justify-content-between dsn-container mt-30`}/>
+                </PortfolioSwiper>
+            </div> */}
+            <div className="section-margin" data-dsn-title="Work">
                 <TitleSection
                     className={`dsn-container`}
                 >
-                    DIGITAL EXPERIENCES
-                </TitleSection>{/* 
-                <p className="dsn-container pb-30">
-                    This is a just a small part of the great clients I worked for. You know how it is with designer portfolios: We don`t have time to update them because we usually are super busy making our client`s projects amazing. Also NDAs 🤫.
-                </p> */}
-                {/* <PortfolioSwiper
-                    grabCursor
-                    desktop={{spaceBetween: 50, slidesPerView: 1.5}}
-                    tablet={{spaceBetween: 0, slidesPerView: 1.3}}
-                    mobile={{slidesPerView: 1}}
-                    stylePortfolio="work-section"
-                    className="text-left  title-inherit h4"
-                    centeredSlides
-                    loop
-                    blur
-                    parallax
-                    speed={1200} 
-                    watchSlidesProgress
-                    loopedSlides={2}
-                    parallaxImage={{"data-swiper-parallax-scale": "0.85"}}
-                    parallaxContent={{"data-swiper-parallax-opacity": "0"}}
-                >
-                    <SwiperPagination
-                        className={`justify-content-between dsn-container mt-30`}
-                    />
-                </PortfolioSwiper> */}
+                    Work
+                </TitleSection>
 
-                 {/*Start Portfolio*/}
                 <PortfolioSwiper grabCursor
                                 desktop={{spaceBetween: 0, slidesPerView: 3}}
                                 tablet={{spaceBetween: 0, slidesPerView: 2 , centeredSlides: false}}
@@ -148,22 +154,6 @@ function Home() {
                                 watchSlidesProgress
                                 loopedSlides={2}
                 />
-
-            {/*End Portfolio*/}
-                
-                {/* <PortfolioSwiper grabCursor
-                                desktop={{spaceBetween: 0, slidesPerView: 3}}
-                                tablet={{spaceBetween: 0, slidesPerView: 2 , centeredSlides: false}}
-                                mobile={{spaceBetween: 0, slidesPerView: 1 , centeredSlides: false}}
-                                stylePortfolio="work-section work-no-scale"
-                                className="text-center v-dark-head"
-                                centeredSlides loop
-                                parallax
-                                speed={800}
-                                watchSlidesProgress
-                                loopedSlides={2}
-                                data-dsn-title="our Work"
-                /> */}
             </div>
             {/*End Portfolio*/}
 
