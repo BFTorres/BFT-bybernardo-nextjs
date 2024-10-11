@@ -140,4 +140,4 @@ const pluginConfig = {
   },
 };
 
-export default pluginConfig;
+export default pluginConfig

@@ -53,12 +53,6 @@ function Home() {
                         <li>
                             Bernardo F. Torres
                         </li>
-                        <li>
-                            Viethhof 16
-                        </li>
-                        <li>
-                            30165 Hannover
-                        </li>
                     </ul>
                     <h4>
                         Kontakt
