@@ -19,7 +19,7 @@ const data = [
         description: 'FinTech application for Ford.',
         overlay: 2
     },
-    {
+    /* {
         id: 5,
 
         title: "MERCEDES BENZ",
@@ -31,7 +31,7 @@ const data = [
         
         overlay: 6
 
-    },
+    }, */
     {
         id: 3,
         
