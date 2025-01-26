@@ -59,7 +59,7 @@ const data = [
         src: '/img/project/project5/sam-warren-JKsAVzwn9CQ-unsplash.jpg',
         description: 'FinTech application for Fidelity.',
         overlay: 2
-    } *//* ,
+    },
     {
         id: 5,
         title: "InCapSolution",

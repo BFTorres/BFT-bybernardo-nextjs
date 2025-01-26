@@ -13,7 +13,7 @@ import BoxGallery, {
 import Team from "../components/Team/Team";
 import Testimonial from "../components/testimonial/Testimonial";
 import SwiperPagination from "../components/swiper-pagination/SwiperPagination";
-import NextPage2 from "../components/next/NextPage2";
+import NextPage from "../components/next/NextPage";
 import BrandClient from "../components/brand-client/BrandClient";
 import Awards from "../components/awards/Awards";
 import {getTeamData} from "../data/team";
@@ -253,7 +253,7 @@ function About() {
             {/*========== End brand-client Section ==========*/}
 
             {/*========== Start Next Page Section ==========*/}
-            <NextPage2 className={`background-section section-padding`}/>
+            <NextPage className={`background-section section-padding`}/>
             {/*========== End Next Page Section ==========*/}
             {/*========== Footer ==========*/}
             <Footer className="background-section"/>

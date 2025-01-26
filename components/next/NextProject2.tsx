@@ -98,10 +98,10 @@ function NextProject2({height, number, attrContent, heroContent, className}) {
 
                             <h2 className="title section-padding p-relative ">
                                 <span className="title-stroke">
-                                    Mercedes Benz
+                                    Ford
                                 </span>
                                 <span className="p-absolute section-padding d-none top-0 w-100 h-100 left-0">
-                                    Mercedes Benz
+                                    Ford
                                 </span>
                             </h2>
 
