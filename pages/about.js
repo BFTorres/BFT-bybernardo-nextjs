@@ -240,14 +240,7 @@ function About() {
                         target="_blank"
                         >
                             THYSSENKRUPP
-                        </a>, 
-                        <a
-                        href="https://www.mercedes-benz.com/en/"
-                        target="_blank"
-                        >
-                            MERCEDES BENZ
-                        </a>
-                        , AND <a
+                        </a>,  AND <a
                         href="https://www.lufthansa.com/de/en/homepage"
                         target="_blank"
                         >
