@@ -88,7 +88,7 @@ function Home() {
             {/* <div className="section-margin" data-dsn-title="Start">
                 <HeroSection className="container" />
             </div> */}
-            <HeaderFull className="dsn-container" heroContent={headerData} overlay={5} fullWidth >
+            <HeaderFull className="container" heroContent={headerData} overlay={5} fullWidth >{/* className="dsn-container" */}
                 {/* <h4 className="mt-20">
                     <span className="bybernardo-red-font">Digital Craftsman</span> based in Hannover, Germany. <br />Currently Frontend <span className="bybernardo-red-font">Developer</span> and Digital Product <span className="bybernardo-red-font">Designer</span> @Lohoff.
                 </h4> */}
@@ -105,13 +105,20 @@ function Home() {
             
 
             {/*Start Portfolio*/}
-            {/* <div className="dsn-container section-margin">
+
+            
+            <div className="section-margin">
+            <TitleSection
+                    className={`container`}
+                >
+                    WORK
+                </TitleSection>
                 <Portfolio stylePortfolio={"work-classic"}
                            useFilter
                            styleBox={"styleBox"}
                            col={2} colGap={50} rowGap={50}
                 />
-            </div> */}
+            </div>
             {/* <div className="p-relative dsn-under-header " data-dsn-title="Our Work">
                 <div className="half-bg-top background-section h-50"/>
                 <PortfolioSwiper grabCursor
@@ -135,7 +142,7 @@ function Home() {
                     <SwiperPagination className={`justify-content-between dsn-container mt-30`}/>
                 </PortfolioSwiper>
             </div> */}
-            <div className="section-margin" data-dsn-title="Work">
+            {/* <div className="section-margin" data-dsn-title="Work">
                 <TitleSection
                     className={`dsn-container`}
                 >
@@ -154,7 +161,7 @@ function Home() {
                                 watchSlidesProgress
                                 loopedSlides={2}
                 />
-            </div>
+            </div> */}
             {/*End Portfolio*/}
 
             {/*Start Service*/}
@@ -248,7 +255,7 @@ function Home() {
             {/*Start Blog*/}
             <div className="section-margin" data-dsn-title="Articles">
                 <TitleSection
-                    className={`dsn-container`}
+                    className={`container`}
                    
                 >
                     WRITTEN EXPERIENCES
