@@ -102,7 +102,7 @@ function Project2(params) {
             {/*End box vertical Section*/}
             {/*End Intro Project*/}
 
-            <NextProject2 heroContent={getPortfolioItem('mercedes-benz')} number={3}  />
+            <NextProject2 heroContent={getPortfolioItem('lufthansa')} number={3}  />
         </Layout>
     );
 }

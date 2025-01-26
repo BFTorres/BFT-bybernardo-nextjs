@@ -78,20 +78,6 @@ const menuContent = [
         ] */
     },
     {name: "ARTICLES", href: "/blog-list"},
-
-    /* {
-        name: "Works",
-        dropdownMenu: [
-                
-                    {name: "BMW Group", href: '/portfolio/bmw-group'},
-                    {name: "Mercedes Benz", href: "/portfolio/mercedes-benz"},
-                    {name: "Kronos", href: '/portfolio/kronos'},
-                    {name: "Principal Garden", href: "/portfolio/principal-garden"},
-                    {name: "Small Silver Car", href: '/portfolio/small-silver-car'},
-                    {name: "Yaren Collection", href: '/portfolio/yaren-collection'},
-
-        ]
-    }, */
     
     
     

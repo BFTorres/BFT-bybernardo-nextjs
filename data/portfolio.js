@@ -19,19 +19,6 @@ const data = [
         description: 'FinTech application for Ford.',
         overlay: 2
     },
-    /* {
-        id: 5,
-
-        title: "MERCEDES BENZ",
-        slug: 'mercedes-benz',
-        src: '/img/project/project3/1.jpg',
-
-        category: ['Product Design'],
-        description: 'FinTech application for Mercedes Benz.',
-        
-        overlay: 6
-
-    }, */
     {
         id: 3,
         

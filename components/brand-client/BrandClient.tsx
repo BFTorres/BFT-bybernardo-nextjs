@@ -6,7 +6,7 @@ import Image from "next/image";
 const data = [
     {src: "/img/logo/BMW-Group-logo.svg"},
     {src: "/img/logo/download (12).png"},
-    {src: "/img/logo/Mercedes-Benz_free_logo.svg"}/* ,
+    /* {src: "/img/logo/Mercedes-Benz_free_logo.svg"},
     {src: "/img/logo/Mercedes-Benz_free_logo.svg.png"},
     {src: "/img/logo/5.png"},
     {src: "/img/logo/6.png"},
