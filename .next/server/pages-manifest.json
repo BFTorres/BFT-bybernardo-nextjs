@@ -2,8 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/personal-2": "pages/personal-2.js",
-  "/": "pages/index.js",
-  "/blog-list": "pages/blog-list.js",
-  "/blog-post-the-three-mile-island-accident": "pages/blog-post-the-three-mile-island-accident.js"
+  "/": "pages/index.js"
 }
