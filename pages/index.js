@@ -42,20 +42,14 @@ const headerContent = {
 const headerData = {
     /* title: `Bernardo Fonseca`.toUpperCase(), */
     subtitle: `
-    <h5 class="subtitle-index pb-30">
-        Saudações, いらっしゃいませ<span class="bybernardo-red-font">!</span>
-    </h5>
     <h4 class="subtitle-index">
-        Bernardo <span class="bybernardo-red-font">designs</span> and <span class="bybernardo-red-font">develops</span> useful and natural digital experiences. He's currently a Product Designer at <span class="bybernardo-red-font">Lohoff</span>, a leading FinTech company.
-    </h4>`,
-    /* subtitle: `
-        <h2 class="section-title  title-cap">
-            Bringing ideas to life with pixels and code
-        </h2>
-        <h5 class="subtitle-index pt-30">
-            Bernardo, <span class="bybernardo-red-font">Product Designer</span> & Dev from Germany
-        </h5>
-    ` */
+        DIGITAL CRAFTSMAN
+    </h4>
+    <h5 class="subtitle-index pb-30">
+         
+        Bernardo is a designer/developer crafting intuitive experiences that empower human to connect, learn, and thrive in digital spaces. Currently product designer @Lohoff.
+    </h5>
+    `,
     /* src: "/img/header.jpg" */
 }
 
@@ -88,7 +82,7 @@ function Home() {
             {/* <div className="section-margin" data-dsn-title="Start">
                 <HeroSection className="container" />
             </div> */}
-            <HeaderFull className="container" heroContent={headerData} overlay={5} fullWidth >{/* className="dsn-container" */}
+            <HeaderFull className="dsn-container" heroContent={headerData} overlay={5} fullWidth >{/* className="dsn-container" */}
                 {/* <h4 className="mt-20">
                     <span className="bybernardo-red-font">Digital Craftsman</span> based in Hannover, Germany. <br />Currently Frontend <span className="bybernardo-red-font">Developer</span> and Digital Product <span className="bybernardo-red-font">Designer</span> @Lohoff.
                 </h4> */}
@@ -323,12 +317,12 @@ function Home() {
                         target="_blank"
                         >
                             THYSSENKRUPP
-                        </a>, AND <a
+                        </a>, <a
                         href="https://www.lufthansa.com/de/en/homepage"
                         target="_blank"
                         >
                              LUFTHANSA
-                        </a>
+                        </a> ...
                     
                 </TitleSection>
 

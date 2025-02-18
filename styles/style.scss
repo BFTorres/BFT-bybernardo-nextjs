@@ -47,6 +47,10 @@
   font-family: 'Grotesk-Bold';
   src: url('./typography/fonts/Space_Grotesk/static/SpaceGrotesk-Bold.ttf')
 }
+@font-face {
+  font-family: 'Tech';
+  src: url('./typography/fonts/tech-mono/ShareTechMono-Regular.ttf')
+}
 
 :root, :root .v-light {
   /* --bg-color: #f9f9f9; */
@@ -99,8 +103,8 @@
 
 
 :root {
-  --body-font: 'Montreal','Poppins', sans-serif;
-  --heading-font: 'Grotesk-Bold', 'Poppins', sans-serif;
+  --body-font: 'Tech','Poppins', sans-serif;
+  --heading-font: 'Tech', 'Grotesk-Bold', 'Poppins', sans-serif;
   --font-code: Menlo, monaco, Consolas, Lucida Console, monospace;
   --font-pre: "Courier 10 Pitch", Courier, monospace;
 
@@ -118,8 +122,8 @@
   --font-weight-heading: 800;
 
   //--> structure
-  /* --margin-padding: 120px; */
-  --margin-padding: 240px;
+  --margin-padding: 120px;
+  /* --margin-padding: 240px; */
   --margin-padding-mobile: 80px;
   --smooth-width: 4px;
 
@@ -140,8 +144,8 @@
 
 
   @include media_991(min) {
-    /* --margin-padding: 120px; */
-    --margin-padding: 240px;
+    --margin-padding: 120px;
+   /*  --margin-padding: 240px; */
     --box-padding: 80px 40px;
   }
   @include media_991() {

@@ -108,7 +108,7 @@ h5.subtitle-index {
   font-weight: 400;
   font-family: $body-font;
   /* font-size: 55px; */
-  font-size: 30px;
+  font-size: 18px;
   /* letter-spacing: 2px; */
 
 
@@ -194,12 +194,14 @@ h5.subtitle-index {
 .section-title {
   position: relative;
   /* font-size: 40px; */
-  font-size: 56px;
+ /*  font-size: 56px; */
+  font-size: 18px;
   letter-spacing: 2px;
 
 
   @include media_768 {
-    font-size: 30px;
+    /* font-size: 30px; */
+    font-size: 18px;
     letter-spacing: inherit;
   }
 }
