@@ -54,6 +54,9 @@ function Project1() {
                         <p className="intro-project-description">
                             Development and design of the user interface, aswell as establishing a top notch user experience and implementing the respective corporate identity into our award winning SaaS solution for BMW Group.
                         </p>
+                        <p className="intro-project-description">
+                            Unfortunately, due to privacy reasons, I can't show the bulk of my work that I did at this project. 
+                        </p>
                         {/* <ButtonProject href="https://www.value-account.eu/acapif/portal-bmw/public_login.prt" className="mt-30">
                             VISIT PROJECT
                         </ButtonProject> */}

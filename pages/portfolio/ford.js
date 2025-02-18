@@ -52,6 +52,9 @@ function Project3(params) {
                         <p className="intro-project-description">
                             Development and design of the user interface, aswell as establishing a top notch user experience and implementing the respective corporate identity into our award winning SaaS solution for Ford.
                         </p>
+                        <p className="intro-project-description">
+                            Unfortunately, due to privacy reasons, I can't show the bulk of my work that I did at this project. 
+                        </p>
                         <Button href="https://www.value-account.eu/acapif/portal-x-fvv/public_login.prt#" className="mt-30 button-brutalist" borderStyle={false} borderRadius>
                             VISIT PROJECT
                         </Button>

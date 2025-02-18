@@ -50,7 +50,10 @@ function Project2(params) {
                     <div className="intro-project-right">
                         <h4 className="title-block text-uppercase mb-20">info</h4>
                         <p className="intro-project-description">
-                            Development and design of the user interface, aswell as establishing a top notch user experience and implementing the respective corporate identity into our award winning SaaS solutions (Deutscher bAV-Preis 2017) for Thyssenkrupp & TKE.
+                            Development and design of the user interface, aswell as establishing a top notch user experience and implementing the respective corporate identity into our award winning SaaS solution for Thyssenkrupp & TKE.
+                        </p>
+                        <p className="intro-project-description">
+                            Unfortunately, due to privacy reasons, I can't show the bulk of my work that I did at this project. 
                         </p>
                         {/* <ButtonProject href="#0" className="mt-30">
                             VIST PROJECT

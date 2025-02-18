@@ -51,6 +51,9 @@ function Project4() {
                         <p className="intro-project-description">
                             Development and design of the user interface, aswell as establishing a top notch user experience and implementing the respective corporate identity into our award winning SaaS solutions for Lufthansa.
                         </p>
+                        <p className="intro-project-description">
+                            Unfortunately, due to privacy reasons, I can't show the bulk of my work that I did at this project. 
+                        </p>
                         {/* <ButtonProject href="#0" className="mt-30">
                             VIST PROJECT
                         </ButtonProject>
