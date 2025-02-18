@@ -73,7 +73,7 @@ function PortfolioItem({portoDetails , styleBox, height = "100%", imageOnly, cla
 
                 {portoDetails.title &&
                 <h4 className="title-block sec-title">
-                    <DsnLink href={getPortfolioLink(portoDetails)} transitionPage={{title:portoDetails.title}}>{portoDetails.title} ↗</DsnLink>
+                    <DsnLink className={"button25"} href={getPortfolioLink(portoDetails)} transitionPage={{title:portoDetails.title}}>{portoDetails.title}</DsnLink>
                 </h4>}
 
             </div>

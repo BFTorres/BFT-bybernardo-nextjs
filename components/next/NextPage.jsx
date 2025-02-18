@@ -54,7 +54,7 @@ function NextPage({className, ...restProps}) {
                         {/* <Button href={"/blog-list"} className="button-brutalist mt-20" borderStyle={false} borderRadius>
                             Articles
                         </Button> */}
-                        <Button href={"https://www.linkedin.com/in/bernardo-fonseca-torres/"} className="button-brutalist mt-20" borderStyle={false} borderRadius>
+                        <Button href={"https://www.linkedin.com/in/bernardo-fonseca-torres/"} className="button25 mt-20" borderStyle={false} borderRadius>
                             Contact me
                         </Button>
                 </div>

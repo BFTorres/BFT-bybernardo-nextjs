@@ -327,7 +327,7 @@
         background-color: $theme-color;
       }
 
-      &::after {
+      /* &::after {
         font-family: "Font Awesome 5 Free";
         content: "\f00c";
         font-weight: 900;
@@ -338,7 +338,7 @@
         font-size: 7px;
         transform: translateY(-50%);
         z-index: 2;
-      }
+      } */
     }
 
     &::before {

@@ -52,7 +52,7 @@ function Project1() {
                     <div className="intro-project-right">
                         <h4 className="title-block text-uppercase mb-20">info</h4>
                         <p className="intro-project-description">
-                            Led the design and development of the user interface, focusing on creating an exceptional user experience while seamlessly integrating the corporate identity into our award-winning SaaS solution. This solution, recognized with the Diamond Star for Digital Innovation in der bAV Award and the HR Excellence Award 2016, was developed for the BMW Group.
+                            Development and design of the user interface, aswell as establishing a top notch user experience and implementing the respective corporate identity into our award winning SaaS solution for BMW Group.
                         </p>
                         {/* <ButtonProject href="https://www.value-account.eu/acapif/portal-bmw/public_login.prt" className="mt-30">
                             VISIT PROJECT

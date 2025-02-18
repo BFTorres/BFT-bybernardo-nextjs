@@ -92,10 +92,10 @@ function Home() {
                 {/* <h4 className="mt-20">
                     <span className="bybernardo-red-font">Digital Craftsman</span> based in Hannover, Germany. <br />Currently Frontend <span className="bybernardo-red-font">Developer</span> and Digital Product <span className="bybernardo-red-font">Designer</span> @Lohoff.
                 </h4> */}
-                <Button href={"/about"} className="button-brutalist mt-20 mr-20" borderStyle={false} borderRadius>
+                <Button href={"/about"} className="button25 mt-20 mr-40" borderStyle={false} borderRadius>
                     About Me
                 </Button>
-                <Button href={"/slider-full-distortion-h"} className="button-brutalist mt-20" borderStyle={false} borderRadius>
+                <Button href={"/slider-full-distortion-h"} className="button25 mt-20" borderStyle={false} borderRadius>
                     Work
                 </Button>
                 {/* <h1 className="title-brutalist-min text-uppercase">
@@ -107,19 +107,19 @@ function Home() {
             {/*Start Portfolio*/}
 
             
-            <div className="section-margin">
-            <TitleSection
-                    className={`container`}
-                >
-                    WORK
-                </TitleSection>
-                <Portfolio stylePortfolio={"work-classic"}
-                           useFilter
-                           styleBox={"styleBox"}
-                           col={2} colGap={50} rowGap={50}
-                />
-            </div>
-            {/* <div className="p-relative dsn-under-header " data-dsn-title="Our Work">
+            {/* <div className="section-margin">
+                <TitleSection
+                        className={`container`}
+                    >
+                        WORK
+                    </TitleSection>
+                    <Portfolio stylePortfolio={"work-classic"}
+                            useFilter
+                            styleBox={"styleBox"}
+                            col={2} colGap={50} rowGap={50}
+                    />
+            </div> */}
+            <div className=" p-relative dsn-under-header " data-dsn-title="Work">
                 <div className="half-bg-top background-section h-50"/>
                 <PortfolioSwiper grabCursor
                                  desktop={{spaceBetween: 50, slidesPerView: 1.5}}
@@ -141,7 +141,7 @@ function Home() {
                 >
                     <SwiperPagination className={`justify-content-between dsn-container mt-30`}/>
                 </PortfolioSwiper>
-            </div> */}
+            </div>
             {/* <div className="section-margin" data-dsn-title="Work">
                 <TitleSection
                     className={`dsn-container`}
@@ -253,7 +253,7 @@ function Home() {
             {/*End box vertical Section*/}
 
             {/*Start Blog*/}
-            <div className="section-margin" data-dsn-title="Articles">
+            {/* <div className="section-margin" data-dsn-title="Articles">
                 <TitleSection
                     className={`container`}
                    
@@ -280,7 +280,7 @@ function Home() {
                         className={`justify-content-between dsn-container mt-30`}
                     />
                 </BlogSwiper>
-            </div>
+            </div> */}
 
             {/* <div className="section-margin" data-dsn-title="Blog">
                 <TitleSection

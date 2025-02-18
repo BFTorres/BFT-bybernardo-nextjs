@@ -49,7 +49,7 @@ function Project4() {
                     <div className="intro-project-right">
                         <h4 className="title-block text-uppercase mb-20">info</h4>
                         <p className="intro-project-description">
-                            Development and design of the user interface, aswell as establishing a top notch user experience and implementing the respective corporate identity into our award winning SaaS solutions for Lufthansa, LH CityLine, LH Boden, LH Cockpit, and Lufthansa FK.
+                            Development and design of the user interface, aswell as establishing a top notch user experience and implementing the respective corporate identity into our award winning SaaS solutions for Lufthansa.
                         </p>
                         {/* <ButtonProject href="#0" className="mt-30">
                             VIST PROJECT

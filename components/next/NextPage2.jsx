@@ -42,7 +42,7 @@ function NextPage2({className, ...restProps}) {
                 <div className="button-box d-flex align-items-center">
                         <Button
                             href={"/work-card-2-col"}
-                            className="button-brutalist mt-20 mr-20 "
+                            className="button25 mt-20 mr-40 "
                             borderStyle={false}
                             borderRadius
                             transitionPage={{title: "Portfolio"}}
@@ -52,7 +52,7 @@ function NextPage2({className, ...restProps}) {
                         {/* <Button href={"/blog-list"} className="button-brutalist mt-20" borderStyle={false} borderRadius>
                             Articles
                         </Button> */}
-                        <Button href={"https://www.linkedin.com/in/bernardo-fonseca-torres/"} className="button-brutalist mt-20" borderStyle={false} borderRadius>
+                        <Button href={"https://www.linkedin.com/in/bernardo-fonseca-torres/"} className="button25 mt-20" borderStyle={false} borderRadius>
                             Contact me
                         </Button>
                 </div>
