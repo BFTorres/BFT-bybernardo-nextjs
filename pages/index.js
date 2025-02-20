@@ -35,9 +35,10 @@ import PortfolioItem from "../components/portfolio/PortfolioItem";
 import Portfolio from "../components/portfolio/Portfolio";
 
 const headerContent = {
-    title: `bybernardo`,
-    /* subtitle: `<span class="background-section pl-15 pr-15 pt-5 pb-5 d-inline-block">Bernardo Fonseca Torres</span>`, */
-    /* src: "/img/about-me-sketch.png" */
+    title: `digital craftsman`,
+    subtitle: `<span class="background-section pl-15 pr-15 pt-5 pb-5 d-inline-block">Bernardo Fonseca Torres</span>`,
+    /* src: "/img/BLACK_III_desktop-1.jpg" */
+    src: "/img/chao.webp"
 };
 const headerData = {
     /* title: `Bernardo Fonseca`.toUpperCase(), */
@@ -68,33 +69,32 @@ function Home() {
                     Bernardo Fonseca Torres - Product Designer and Frontend Developer based in Hannover, Germany.
                 </title>
             </Head>
-
-            {/* <SliderPortfolio
-                webgel
-                fullWidth
-                className={"align-items-end pb-80"}
-                webgelOptions={{
-                    displacement: "/img/displacement/8.jpg",
-                    speedIn: 3.5,
-                }}
-                metaData={{hasSeparator: true}}
-            /> */}
-            {/* <div className="section-margin" data-dsn-title="Start">
-                <HeroSection className="container" />
-            </div> */}
-            <HeaderFull className="dsn-container" heroContent={headerData} overlay={5} fullWidth >{/* className="dsn-container" */}
-                {/* <h4 className="mt-20">
-                    <span className="bybernardo-red-font">Digital Craftsman</span> based in Hannover, Germany. <br />Currently Frontend <span className="bybernardo-red-font">Developer</span> and Digital Product <span className="bybernardo-red-font">Designer</span> @Lohoff.
-                </h4> */}
+            {/* <HeaderFull className="dsn-container" heroContent={headerData} overlay={5} fullWidth >
                 <Button href={"/about"} className="button25 mt-20 mr-40" borderStyle={false} borderRadius>
                     About Me
                 </Button>
                 <Button href={"/slider-full-distortion-h"} className="button25 mt-20" borderStyle={false} borderRadius>
                     Work
                 </Button>
-                {/* <h1 className="title-brutalist-min text-uppercase">
-                    Digital Craftsman
-                </h1> */}
+            </HeaderFull> */}
+            <HeaderFull
+                className="dsn-container"
+                fullWidth
+                heroContent={headerContent}
+                overlay={6}
+            >
+                <p className="mt-30 pb-30 border-bottom max-w570">
+                    Bernardo is a designer/developer crafting intuitive experiences that empower humans to connect, learn, and thrive in digital spaces. Currently product designer @Lohoff.
+                </p>
+
+                <div className="d-flex align-items-center mt-30">
+                <Button href={"/about"} className="button25 mt-20 mr-40" borderStyle={false} borderRadius>
+                    About
+                </Button>
+                <Button href={"/slider-full-distortion-h"} className="button25 mt-20" borderStyle={false} borderRadius>
+                    Work
+                </Button>
+                </div>
             </HeaderFull>
             
 

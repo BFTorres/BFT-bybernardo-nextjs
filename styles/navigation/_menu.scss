@@ -85,16 +85,13 @@
 
 }
 
-@include media_991(max) {
+/* @include media_991(max) {
 
     .site-header {
-      /* background: #fafafa; */
-      /* background: #3d422e; */
-      /* background: #181b10; */
       background: var(--bg-color);
     }
 
-}
+} */
 
 .main-brand, .dsnload__img {
 
